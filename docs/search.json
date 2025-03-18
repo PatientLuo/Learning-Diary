@@ -4,9 +4,59 @@
     "href": "index.html",
     "title": "Learning-Diary1",
     "section": "",
-    "text": "Welcome!\nHi everyone! I’m Luo Huangchen, currently pursuing a master’s degree in Urban Spatial Science, with a focus on transportation planning, spatial data analysis, and remote sensing applications. I enjoy using data to tell stories and exploring new technologies to make cities smarter and more livable. During my undergraduate years, I participated in various projects related to smart transportation, sustainable urban development, and traffic system optimization. I’ve worked extensively with tools like ArcGIS, Python, and R for data analysis. Recently, I’ve been researching mangrove and wetland conservation in the Greater Bay Area using remote sensing, which has been both challenging and exciting! Beyond academics, I love traveling, photography, and trying new things. I often optimize SQL queries, simulate traffic flows with VISSIM, and conduct spatial analyses with GIS. Of course, I also take some time to relax by watching shows and unwinding. 😆 I’m looking forward to connecting with like-minded people and exploring the fascinating world of cities together!\n```",
+    "text": "Welcome!\nHi everyone! I’m Luo Huangchen, currently pursuing a master’s degree in Urban Spatial Science, with a focus on transportation planning, spatial data analysis, and remote sensing applications. I enjoy using data to tell stories and exploring new technologies to make cities smarter and more livable. During my undergraduate years, I participated in various projects related to smart transportation, sustainable urban development, and traffic system optimization. I’ve worked extensively with tools like ArcGIS, Python, and R for data analysis. Recently, I’ve been researching mangrove and wetland conservation in the Greater Bay Area using remote sensing, which has been both challenging and exciting! Beyond academics, I love traveling, photography, and trying new things. I often optimize SQL queries, simulate traffic flows with VISSIM, and conduct spatial analyses with GIS. Of course, I also take some time to relax by watching shows and unwinding. 😆 I’m looking forward to connecting with like-minded people and exploring the fascinating world of cities together! I’m really passionate about remote sensing, and I’m excited to learn and gain more knowledge in CASA0023. I’m looking forward to all the lectures and workshops!\n```",
     "crumbs": [
       "Welcome!"
+    ]
+  },
+  {
+    "objectID": "Week2.html",
+    "href": "Week2.html",
+    "title": "2  Week 2 Learning Diary",
+    "section": "",
+    "text": "2.1 Week2\n📢 Week 2: Creating PPTs with xaringan This week, we will be using xaringan, an R Markdown package, to create slides. xaringan allows us to build flexible, interactive, and beautifully styled presentations using simple Markdown syntax. It’s a powerful tool for sharing research findings, data visualizations, and spatial analysis results in a professional and customizable way.\nThroughout this week, we will explore how to: ✅ Set up a basic xaringan presentation ✅ Customize themes and layouts ✅ Integrate code, plots, and interactive elements\nI’m excited to dive into this and see how we can make engaging presentations with xaringan! 🚀",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 2 Learning Diary</span>"
+    ]
+  },
+  {
+    "objectID": "Week1.html",
+    "href": "Week1.html",
+    "title": "1  Week 1 Learning Diary",
+    "section": "",
+    "text": "1.1 🌍 Week1\nThis week we learned the basic concepts of Remote Sensing data, including: - What is remote sensing - basic types of remote sensing images (optical, radar, thermal infrared) - How to read remote sensing data in R language",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1 Learning Diary</span>"
+    ]
+  },
+  {
+    "objectID": "Week1.html#section",
+    "href": "Week1.html#section",
+    "title": "1  Week 1 Learning Diary",
+    "section": "1.2 ",
+    "text": "1.2",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1 Learning Diary</span>"
+    ]
+  },
+  {
+    "objectID": "Week3.html",
+    "href": "Week3.html",
+    "title": "3  Week 3 Learning Diary",
+    "section": "",
+    "text": "3.1 📢 Week 3: Learning Corrections",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 Learning Diary</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "4  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction</span>"
     ]
   }
 ]

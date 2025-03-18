@@ -1,0 +1,16 @@
+---
+title: "Week 2 Learning Diary"
+author: "PatientLuo"
+date: "2025-03-18"
+format: html
+---
+## Week2
+📢 Week 2: Creating PPTs with xaringan
+This week, we will be using xaringan, an R Markdown package, to create slides. xaringan allows us to build flexible, interactive, and beautifully styled presentations using simple Markdown syntax. It’s a powerful tool for sharing research findings, data visualizations, and spatial analysis results in a professional and customizable way.
+
+Throughout this week, we will explore how to:
+✅ Set up a basic xaringan presentation
+✅ Customize themes and layouts
+✅ Integrate code, plots, and interactive elements
+
+I’m excited to dive into this and see how we can make engaging presentations with xaringan! 🚀
