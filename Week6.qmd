@@ -1,0 +1,49 @@
+---
+title: "Remote Sensing Learning Diary - Week 6"
+author: "Luo Huangchen"
+format: html
+---
+
+# **Lecture 6** 
+
+# **Summary: Classification in Remote Sensing**
+
+## **Applications of Classified Data**
+
+Classification techniques are widely used in **urban expansion, air pollution analysis, and environmental monitoring**.\
+For example, **Landsat data** was used to analyze **urban expansion in Perth from 1990 to 2015**, demonstrating how classification methods can be applied to long-term **land use/land cover (LULC) change detection**.
+
+-   **Forest monitoring and illegal logging detection**
+    -   Environmental police in Brazil use **Landsat data and Google Earth Engine (GEE)**.\
+    -   **Forest Watcher** helps detect illegal deforestation.\
+    -   GEE enables **40-year Landsat imagery access** for large-scale classification.
+
+## **Classification Techniques and Optimization**
+
+### **Supervised vs. Unsupervised Classification**
+
+-   **Supervised Classification**
+    -   Maximum Likelihood Classification (MLC)\
+    -   Support Vector Machines (SVM)\
+-   **Unsupervised Classification**
+    -   k-means clustering\
+    -   ISODATA method
+
+### **Machine Learning Approaches**
+
+-   **Decision Trees & Random Forests**
+    -   CART (Classification and Regression Trees)\
+    -   Random Forests (used in GEE for large-scale classification)\
+-   **Google Earth Engine Optimization**
+    -   **Avoid loops**; use `map()` for efficiency.\
+    -   **Consider scale** when exporting classification results.
+
+## **Challenges and Optimization**
+
+-   **Overfitting**: Decision tree pruning and validation datasets can improve classification.\
+-   **Mixed Pixels**: **Cluster busting** can refine classification accuracy.\
+-   **Interactive Visualization**: GEE supports real-time classification parameter adjustments.
+
+## **Final Thoughts**
+
+This lecture reinforced how **GEE optimizes classification**, enabling large-scale remote sensing applications.

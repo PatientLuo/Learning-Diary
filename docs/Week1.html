@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -160,8 +180,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#week1" id="toc-week1" class="nav-link active" data-scroll-target="#week1"><span class="header-section-number">1.1</span> 🌍 Week1</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="header-section-number">1.2</span> </a></li>
+  <li><a href="#week1" id="toc-week1" class="nav-link active" data-scroll-target="#week1"><span class="header-section-number">2</span> 🌍 Week1</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">2.1</span> Summary</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">2.2</span> Applications</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">2.3</span> Reflection</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -199,14 +223,64 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="week1" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="week1"><span class="header-section-number">1.1</span> 🌍 Week1</h2>
-<p>This week we learned the basic concepts of Remote Sensing data, including: - What is remote sensing - basic types of remote sensing images (optical, radar, thermal infrared) - How to read remote sensing data in R language</p>
+<section id="week1" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 🌍 Week1</h1>
+<section id="summary" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">2.1</span> Summary</h2>
+<p>This week’s course introduces the basic concepts and methods of remote sensing (Remote Sensing). Remote sensing refers to the technology of obtaining information about the Earth from a distance, usually with the help of sensors on platforms such as satellites, aircraft or drones <span class="citation" data-cites="Campbell2011">(<a href="references.html#ref-Campbell2011" role="doc-biblioref">Campbell and Wynne 2011</a>)</span>. We discussed in depth the difference between active and passive remote sensing: active remote sensing uses signals emitted by itself (e.g.&nbsp;radar, lidar, etc.) and receives reflected information, while passive remote sensing relies on information reflected from sunlight hitting the surface, such as the Landsat and Sentinel satellites <span class="citation" data-cites="Jensen2009">(<a href="references.html#ref-Jensen2009" role="doc-biblioref">Jensen 2009</a>)</span>.</p>
+<p>Remote sensing data usually have four types of resolution: spatial resolution (pixel size), spectral resolution (number of detected bands), temporal resolution (revisit period) and radiometric resolution (sensitivity of detected spectra). These resolutions determine the application range and accuracy of remote sensing data. At the same time, the electromagnetic spectral signature (Spectral Signature) of the Earth’s surface enables remote sensing technology to effectively differentiate between different feature types, such as vegetation, water bodies, and soils. In addition, we discussed that the acquisition of remote sensing data may be affected by atmospheric conditions such as clouds and haze, which makes it necessary to ensure the quality and validity of data through atmospheric correction and other means <span class="citation" data-cites="Schowengerdt2007">(<a href="references.html#ref-Schowengerdt2007" role="doc-biblioref">Schowengerdt 2007</a>)</span>.</p>
 </section>
-<section id="section" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="section"><span class="header-section-number">1.2</span> </h2>
+<section id="applications" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">2.2</span> Applications</h2>
+<p>Remote sensing technology has in fact long permeated every aspect of our lives, especially in the matter of responding to natural disasters, where its role is becoming increasingly important. For example, the synthetic aperture radar (SAR) in active remote sensing, which we mentioned in class, is particularly powerful in flood detection. Traditional optical satellites are easily blocked by clouds, but SAR is different, it can ‘penetrate’ the clouds to monitor the ground conditions around the clock, so it is particularly useful in emergency situations such as floods <span class="citation" data-cites="amitrano2024">(<a href="references.html#ref-amitrano2024" role="doc-biblioref">Amitrano et al. 2024</a>)</span>. A recent reading also highlights that with climate change and increased urbanisation, flooding is becoming more frequent, making it vital to be able to identify and monitor flooded areas quickly and effectively, a need that SAR data meets, and one that can help governments to respond quickly and allocate resources for disaster relief<span class="citation" data-cites="twele2016">(<a href="references.html#ref-twele2016" role="doc-biblioref">Twele et al. 2016</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/flood.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Fig. 1 Three types of scattering of radar signals (Source: Amitrano et al., 2024)</figcaption>
+</figure>
+</div>
+<p><em>Source: <a href="https://doi.org/10.3390/rs16040656">Amitrano et al.&nbsp;(2024)</a></em></p>
+<p>In addition to flood monitoring, passive remote sensing data are also widely used, such as the Landsat and Sentinel-2 satellites that we often hear about, and their applications in agriculture and the ecological environment are particularly numerous. As an example, satellite data can be used to calculate the vegetation index (NDVI), which helps the agricultural sector to more accurately assess the growth of crops and predict yields, and can even monitor changes in the ecological environment in real time. Moreover, using cloud computing platforms such as Google Earth Engine, people can easily analyse large-scale land cover changes and even monitor global ecological trends <span class="citation" data-cites="gorelick2017 zhu2014">(<a href="references.html#ref-gorelick2017" role="doc-biblioref">Gorelick et al. 2017</a>; <a href="references.html#ref-zhu2014" role="doc-biblioref">Zhu and Woodcock 2014</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Geewk1.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Figure 2 Schematic of the Google Earth Engine (Source: Gorelick et al., 2017)</figcaption>
+</figure>
+</div>
+<p><em>Source: <a href="https://doi.org/10.1016/j.rse.2017.06.031">Gorelick et al.&nbsp;(2017)</a></em></p>
+<p>However, remote sensing is not a panacea, especially in cities and areas with vegetation cover, where SAR data can still be difficult to analyse. This is because buildings and vegetation in cities can cause complex signal reflections, making accurate identification of flooded areas tricky at times. Overall, however, the convenience and comprehensiveness provided by remote sensing data gives us more initiative in disaster response and environmental management, and the future development prospects are still worth looking forward to.</p>
+</section>
+<section id="reflection" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">2.3</span> Reflection</h2>
+<p>The first week of remote sensing class made me realise right away that this technology is not just an abstract theory in the academic field, but a real tool that can make a difference in people’s lives. Of interest to me was the fact that active remote sensing (SAR), which we mentioned in class, has particularly prominent applications in natural disaster, especially flood monitoring. My previous understanding of remote sensing may have been limited to the simple application of satellite imagery, but I had no idea that it also has such great potential to address the risks associated with urbanisation and to protect people’s lives and property.</p>
+<p>At the same time, I also noticed that although SAR can overcome the shortcomings of traditional optical images (such as the influence of cloud cover), there are still some challenges in its practical application. For example, the processing of SAR data in complex environments such as cities is still difficult, which reminds me that there are still quite a few practical problems to overcome between the development of the technology and the landing of the application. In addition, I am particularly interested in cloud platforms such as Google Earth Engine, which greatly reduces the threshold of remote sensing data analysis and allows us to quickly carry out large-scale environmental monitoring on a global scale, which is very attractive for both academic research and practical work.</p>
+<p>One of the deepest feelings I got from this class is that remote sensing technology has really brought people closer to the Earth’s environment. Although there are still a lot of technical details that I need to learn in depth, I am already looking forward to what I can learn next and the role this knowledge can play in my future studies and career.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-amitrano2024" class="csl-entry" role="listitem">
+Amitrano, Donato, Gerardo Di Martino, Alessio Di Simone, and Pasquale Imperatore. 2024. <span>“Flood Detection with SAR: A Review of Techniques and Datasets.”</span> <em>Remote Sensing</em> 16 (4): 656. <a href="https://doi.org/10.3390/rs16040656">https://doi.org/10.3390/rs16040656</a>.
+</div>
+<div id="ref-Campbell2011" class="csl-entry" role="listitem">
+Campbell, J. B., and R. H. Wynne. 2011. <em>Introduction to Remote Sensing</em>. 5th ed. Guilford Press.
+</div>
+<div id="ref-gorelick2017" class="csl-entry" role="listitem">
+Gorelick, Noel, Matt Hancher, Mike Dixon, Simon Ilyushchenko, David Thau, and Rebecca Moore. 2017. <span>“Google Earth Engine: Planetary-Scale Geospatial Analysis for Everyone.”</span> <em>Remote Sensing of Environment</em> 202: 18–27. <a href="https://doi.org/10.1016/j.rse.2017.06.031">https://doi.org/10.1016/j.rse.2017.06.031</a>.
+</div>
+<div id="ref-Jensen2009" class="csl-entry" role="listitem">
+Jensen, J. R. 2009. <em>Remote Sensing of the Environment: An Earth Resource Perspective</em>. 2nd ed. Pearson Education India.
+</div>
+<div id="ref-Schowengerdt2007" class="csl-entry" role="listitem">
+Schowengerdt, R. A. 2007. <em>Remote Sensing: Models and Methods for Image Processing</em>. 3rd ed. Academic Press.
+</div>
+<div id="ref-twele2016" class="csl-entry" role="listitem">
+Twele, André, Weiguo Cao, Simon Plank, and Sandro Martinis. 2016. <span>“Sentinel-1-Based Flood Mapping: A Fully Automated Processing Chain.”</span> <em>International Journal of Remote Sensing</em> 37 (13): 2990–3004. <a href="https://doi.org/10.1080/01431161.2016.1192304">https://doi.org/10.1080/01431161.2016.1192304</a>.
+</div>
+<div id="ref-zhu2014" class="csl-entry" role="listitem">
+Zhu, Zhe, and Curtis E Woodcock. 2014. <span>“Continuous Change Detection and Classification of Land Cover Using All Available Landsat Data.”</span> <em>Remote Sensing of Environment</em> 144: 152–71. <a href="https://doi.org/10.1016/j.rse.2014.01.011">https://doi.org/10.1016/j.rse.2014.01.011</a>.
+</div>
+</div>
+</section>
 </section>
 
 </main> <!-- /main -->
