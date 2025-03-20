@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -161,6 +181,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#week-3-learning-corrections" id="toc-week-3-learning-corrections" class="nav-link active" data-scroll-target="#week-3-learning-corrections"><span class="header-section-number">3.1</span> 📢 Week 3: Learning Corrections</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">3.2</span> Summary</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">3.3</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">3.4</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -200,8 +223,82 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="week-3-learning-corrections" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="week-3-learning-corrections"><span class="header-section-number">3.1</span> 📢 Week 3: Learning Corrections</h2>
+</section>
+<section id="summary" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="summary"><span class="header-section-number">3.2</span> Summary</h2>
+<p>This week’s course took us on an in-depth exploration of important data correction methods and technical background in remote sensing data processing. First, we reviewed the history of the famous <strong>Landsat</strong> series of satellite data, with a special focus on the key contributions of technician Virginia Norwood, whose design of the digital multispectral scanner (<em>Multispectral Scanner</em> (MSS)) replaced the traditional analogue camera technique and drove a major change in remote sensing technology. Today, Norwood’s <em>Whisk broom</em> scanning technique is at the heart of remote sensing data acquisition.</p>
+<p>In terms of data processing, we specifically learnt about three key methods, namely geometric correction, atmospheric correction and orthometric correction. Geometric correction addresses the spatial error between the satellite image and the actual geographic location by calibrating the image position through Ground Control Points (GCPs). Atmospheric correction deals with the data bias caused by the atmosphere, including relative correction (e.g.&nbsp;dark object subtraction, pseudo-invariant feature method) and absolute correction (e.g.&nbsp;FLAASH model) to ensure that the acquired data reflect the surface conditions more realistically. Orthometric corrections are used to correct image distortions caused by the angle of observation of the satellite, using mathematical models and surface elevation data to produce an accurate image as if viewed from directly above.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Summary of Remote Sensing Data Corrections</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 29%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Correction Method</strong></th>
+<th><strong>Main Purpose</strong></th>
+<th><strong>Common Techniques</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Geometric Correction</strong></td>
+<td>Ensures spatial accuracy of images</td>
+<td>Ground Control Points (GCP)</td>
+</tr>
+<tr class="even">
+<td><strong>Atmospheric Correction</strong></td>
+<td>Removes atmospheric interference (clouds, haze, etc.)</td>
+<td>- Relative Correction: Dark Object Subtraction, Pseudo-Invariant Feature Method <br>- Absolute Correction: FLAASH Model</td>
+</tr>
+<tr class="odd">
+<td><strong>Orthorectification</strong></td>
+<td>Eliminates distortions caused by satellite viewing angles</td>
+<td>Mathematical models, DEM-based corrections</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<pre><code>                </code></pre>
+<p>Through this week’s study, I have gained a deep understanding of the complexity behind the process of remote sensing data processing, the seemingly tedious but very important steps that ensure the efficiency and accuracy of the data in scientific research and practical applications, and enable us to use remote sensing data more confidently in analyses and decision-making.</p>
+</section>
+<section id="application" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="application"><span class="header-section-number">3.3</span> Application</h2>
+<p>After studying the remote sensing data correction techniques during the week, I purposely reviewed some examples of remote sensing correction applications in practical research, which helped me better understand the practical value of these methods. For example, in crop estimation studies, atmospheric correction techniques have a significant impact on the accuracy of vegetation indices. The accuracy of NDVI data can be significantly improved by accurate atmospheric correction, which can better monitor the true health of crops and thus help farmers to increase yields and reduce losses (<span class="citation" data-cites="song2001">Song et al. (<a href="references.html#ref-song2001" role="doc-biblioref">2001</a>)</span>). In addition, some studies have also clearly pointed out that remote sensing data without correct geometric correction may lead to significant overestimation or underestimation of forest fire area (<span class="citation" data-cites="roy2016">Roy et al. (<a href="references.html#ref-roy2016" role="doc-biblioref">2016</a>)</span>). Therefore, the importance of accurate geometric correction in the field of disaster management cannot be overstated.</p>
+<p>The application of orthometric correction, on the other hand, reminds me of practical examples in urban planning. For example, in urban expansion studies, image distortion caused by satellite image tilting can seriously affect the accurate measurement of urban area, which can be effectively avoided after accurate ortho-correction, helping decision makers to grasp urban expansion trends more accurately (<span class="citation" data-cites="lefebvre2016">Lefebvre, Sannier, and Corpetti (<a href="references.html#ref-lefebvre2016" role="doc-biblioref">2016</a>)</span>). This study used Sentinel-2 data to update the Copernicus High Resolution Impermeable Layer (HRL IMD), which improves the accuracy of urban change monitoring through remote sensing data fusion, as exemplified in the figure below which detects the changes in the city of Rennes for the years 2012-2015. This shows that orthorectification is not only applicable to traditional geographic studies, but also plays a crucial role in modern large-scale urban monitoring missions.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/urban_change_rennes.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Urban Change Detection in Rennes (2012-2015)</strong><em><br>
+Source: <a href="https://doi.org/10.3390/rs8070606">Lefebvre, Sannier and Corpetti (2016)</a></em></figcaption>
+</figure>
+</div>
+<p>Through these application cases, I also began to think that although the methods we learnt in class are very mature, in practice, we still need to flexibly adjust the calibration strategy according to specific research scenarios. After all, disturbances in real environments are often more complex. This also inspired me to pay more attention to the flexibility and applicability of remote sensing methods in my future study and research.</p>
+</section>
+<section id="reflection" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="reflection"><span class="header-section-number">3.4</span> Reflection</h2>
+<p>Through this week’s study, I deeply feel that remote sensing data processing is not simply a matter of ‘taking a picture’, but requires a lot of rigorous and detailed technical processing and correction steps behind it. In the past, I always thought that satellite images were just taken and used directly, but now I realise that this is just the beginning of the data processing journey. From data acquisition to real application, every step in between - be it geometric, atmospheric or orthometric correction - must be rigorously executed to ensure the accuracy and usability of the final data.</p>
+<p>I was struck by the fact that these seemingly complex and trivial steps all lead to a common goal: to ensure that we make the right decisions when facing environmental problems. For example, through accurate atmospheric corrections, we can obtain more accurate data on vegetation cover and thus plan for ecological protection more effectively. In addition, thinking about current technological developments, such as the increasing maturity of cloud computing platforms and automated processing technologies, I am also confident that in the future these data processing processes will become more streamlined and efficient, and our research and decision-making processes will become more reliable and timely. This anticipation of the future makes me even more enthusiastic and motivated for the subsequent courses and exploration of remote sensing technology.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-lefebvre2016" class="csl-entry" role="listitem">
+Lefebvre, Antoine, Christophe Sannier, and Thomas Corpetti. 2016. <span>“Monitoring Urban Areas with Sentinel-2A Data: Application to the Update of the Copernicus High Resolution Layer Imperviousness Degree.”</span> <em>Remote Sensing</em> 8 (7): 606. <a href="https://doi.org/10.3390/rs8070606">https://doi.org/10.3390/rs8070606</a>.
+</div>
+<div id="ref-roy2016" class="csl-entry" role="listitem">
+Roy, David P, Luigi Boschetti, Christopher O Justice, and Jinzhong Ju. 2016. <span>“The Collection 5 MODIS Burned Area Product—Global Evaluation by Comparison with the MODIS Active Fire Product.”</span> <em>Remote Sensing of Environment</em> 112 (9): 3690–3707. <a href="https://doi.org/10.1016/j.rse.2008.05.013">https://doi.org/10.1016/j.rse.2008.05.013</a>.
+</div>
+<div id="ref-song2001" class="csl-entry" role="listitem">
+Song, Conghe, Curtis E Woodcock, Karen C Seto, Mary P Lenney, and Scott A Macomber. 2001. <span>“Classification and Change Detection Using Landsat TM Data: When and How to Correct Atmospheric Effects?”</span> <em>Remote Sensing of Environment</em> 75 (2): 230–44. <a href="https://doi.org/10.1016/S0034-4257(00)00169-3">https://doi.org/10.1016/S0034-4257(00)00169-3</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

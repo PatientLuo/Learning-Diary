@@ -4,4 +4,44 @@ author: "PatientLuo"
 date: "2025-03-18"
 format: html
 ---
+
 ## 📢 Week 3: Learning Corrections
+
+## Summary
+
+This week's course took us on an in-depth exploration of important data correction methods and technical background in remote sensing data processing. First, we reviewed the history of the famous **Landsat** series of satellite data, with a special focus on the key contributions of technician Virginia Norwood, whose design of the digital multispectral scanner (*Multispectral Scanner* (MSS)) replaced the traditional analogue camera technique and drove a major change in remote sensing technology. Today, Norwood's *Whisk broom* scanning technique is at the heart of remote sensing data acquisition.
+
+In terms of data processing, we specifically learnt about three key methods, namely geometric correction, atmospheric correction and orthometric correction. Geometric correction addresses the spatial error between the satellite image and the actual geographic location by calibrating the image position through Ground Control Points (GCPs). Atmospheric correction deals with the data bias caused by the atmosphere, including relative correction (e.g. dark object subtraction, pseudo-invariant feature method) and absolute correction (e.g. FLAASH model) to ensure that the acquired data reflect the surface conditions more realistically. Orthometric corrections are used to correct image distortions caused by the angle of observation of the satellite, using mathematical models and surface elevation data to produce an accurate image as if viewed from directly above.
+
+::: panel-tabset
+### Summary of Remote Sensing Data Corrections {.active}
+
+| **Correction Method**      | **Main Purpose**                                          | **Common Techniques**                                                                                                    |
+|------------------|---------------------|---------------------------------|
+| **Geometric Correction**   | Ensures spatial accuracy of images                        | Ground Control Points (GCP)                                                                                              |
+| **Atmospheric Correction** | Removes atmospheric interference (clouds, haze, etc.)     | \- Relative Correction: Dark Object Subtraction, Pseudo-Invariant Feature Method <br>- Absolute Correction: FLAASH Model |
+| **Orthorectification**     | Eliminates distortions caused by satellite viewing angles | Mathematical models, DEM-based corrections                                                                               |
+:::
+
+```         
+                
+```
+
+Through this week's study, I have gained a deep understanding of the complexity behind the process of remote sensing data processing, the seemingly tedious but very important steps that ensure the efficiency and accuracy of the data in scientific research and practical applications, and enable us to use remote sensing data more confidently in analyses and decision-making.
+
+## Application
+
+After studying the remote sensing data correction techniques during the week, I purposely reviewed some examples of remote sensing correction applications in practical research, which helped me better understand the practical value of these methods. For example, in crop estimation studies, atmospheric correction techniques have a significant impact on the accuracy of vegetation indices. The accuracy of NDVI data can be significantly improved by accurate atmospheric correction, which can better monitor the true health of crops and thus help farmers to increase yields and reduce losses (@song2001). In addition, some studies have also clearly pointed out that remote sensing data without correct geometric correction may lead to significant overestimation or underestimation of forest fire area (@roy2016). Therefore, the importance of accurate geometric correction in the field of disaster management cannot be overstated.
+
+The application of orthometric correction, on the other hand, reminds me of practical examples in urban planning. For example, in urban expansion studies, image distortion caused by satellite image tilting can seriously affect the accurate measurement of urban area, which can be effectively avoided after accurate ortho-correction, helping decision makers to grasp urban expansion trends more accurately (@lefebvre2016). This study used Sentinel-2 data to update the Copernicus High Resolution Impermeable Layer (HRL IMD), which improves the accuracy of urban change monitoring through remote sensing data fusion, as exemplified in the figure below which detects the changes in the city of Rennes for the years 2012-2015. This shows that orthorectification is not only applicable to traditional geographic studies, but also plays a crucial role in modern large-scale urban monitoring missions.
+
+![**Urban Change Detection in Rennes (2012-2015)***\
+Source: [Lefebvre, Sannier and Corpetti (2016)](https://doi.org/10.3390/rs8070606)*](images/urban_change_rennes.png){width="80%"}
+
+Through these application cases, I also began to think that although the methods we learnt in class are very mature, in practice, we still need to flexibly adjust the calibration strategy according to specific research scenarios. After all, disturbances in real environments are often more complex. This also inspired me to pay more attention to the flexibility and applicability of remote sensing methods in my future study and research.
+
+## Reflection
+
+Through this week's study, I deeply feel that remote sensing data processing is not simply a matter of ‘taking a picture’, but requires a lot of rigorous and detailed technical processing and correction steps behind it. In the past, I always thought that satellite images were just taken and used directly, but now I realise that this is just the beginning of the data processing journey. From data acquisition to real application, every step in between - be it geometric, atmospheric or orthometric correction - must be rigorously executed to ensure the accuracy and usability of the final data.
+
+I was struck by the fact that these seemingly complex and trivial steps all lead to a common goal: to ensure that we make the right decisions when facing environmental problems. For example, through accurate atmospheric corrections, we can obtain more accurate data on vegetation cover and thus plan for ecological protection more effectively. In addition, thinking about current technological developments, such as the increasing maturity of cloud computing platforms and automated processing technologies, I am also confident that in the future these data processing processes will become more streamlined and efficient, and our research and decision-making processes will become more reliable and timely. This anticipation of the future makes me even more enthusiastic and motivated for the subsequent courses and exploration of remote sensing technology.

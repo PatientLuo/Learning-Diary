@@ -17,13 +17,13 @@ Remote sensing data usually have four types of resolution: spatial resolution (p
 
 Remote sensing technology has in fact long permeated every aspect of our lives, especially in the matter of responding to natural disasters, where its role is becoming increasingly important. For example, the synthetic aperture radar (SAR) in active remote sensing, which we mentioned in class, is particularly powerful in flood detection. Traditional optical satellites are easily blocked by clouds, but SAR is different, it can ‘penetrate’ the clouds to monitor the ground conditions around the clock, so it is particularly useful in emergency situations such as floods [@amitrano2024]. A recent reading also highlights that with climate change and increased urbanisation, flooding is becoming more frequent, making it vital to be able to identify and monitor flooded areas quickly and effectively, a need that SAR data meets, and one that can help governments to respond quickly and allocate resources for disaster relief[@twele2016].
 
-![Fig. 1 Three types of scattering of radar signals (Source: Amitrano et al., 2024)](images/flood.png){width="70%"}
+![Fig. 1 Three types of scattering of radar signals](images/flood.png){width="70%"}
 
 *Source: [Amitrano et al. (2024)](https://doi.org/10.3390/rs16040656)*
 
 In addition to flood monitoring, passive remote sensing data are also widely used, such as the Landsat and Sentinel-2 satellites that we often hear about, and their applications in agriculture and the ecological environment are particularly numerous. As an example, satellite data can be used to calculate the vegetation index (NDVI), which helps the agricultural sector to more accurately assess the growth of crops and predict yields, and can even monitor changes in the ecological environment in real time. Moreover, using cloud computing platforms such as Google Earth Engine, people can easily analyse large-scale land cover changes and even monitor global ecological trends [@gorelick2017; @zhu2014].
 
-![Figure 2 Schematic of the Google Earth Engine (Source: Gorelick et al., 2017)](images/Geewk1.png){width="70%"}
+![Figure 2 Schematic of the Google Earth Engine](images/Geewk1.png){width="70%"}
 
 *Source: [Gorelick et al. (2017)](https://doi.org/10.1016/j.rse.2017.06.031)*
 

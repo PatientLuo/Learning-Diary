@@ -238,6 +238,116 @@
             "title": "Continuous change detection and classification of land cover using all available landsat data",
             "type": "article-journal",
             "volume": "144"
+        },
+        {
+            "DOI": "10.1016/S0034-4257(00)00169-3",
+            "author": [
+                {
+                    "family": "Song",
+                    "given": "Conghe"
+                },
+                {
+                    "family": "Woodcock",
+                    "given": "Curtis E"
+                },
+                {
+                    "family": "Seto",
+                    "given": "Karen C"
+                },
+                {
+                    "family": "Lenney",
+                    "given": "Mary P"
+                },
+                {
+                    "family": "Macomber",
+                    "given": "Scott A"
+                }
+            ],
+            "container-title": "Remote Sensing of Environment",
+            "id": "song2001",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2001
+                    ]
+                ]
+            },
+            "page": "230-244",
+            "publisher": "Elsevier",
+            "title": "Classification and change detection using landsat TM data: When and how to correct atmospheric effects?",
+            "title-short": "Classification and change detection using landsat TM data",
+            "type": "article-journal",
+            "volume": "75"
+        },
+        {
+            "DOI": "10.1016/j.rse.2008.05.013",
+            "author": [
+                {
+                    "family": "Roy",
+                    "given": "David P"
+                },
+                {
+                    "family": "Boschetti",
+                    "given": "Luigi"
+                },
+                {
+                    "family": "Justice",
+                    "given": "Christopher O"
+                },
+                {
+                    "family": "Ju",
+                    "given": "Jinzhong"
+                }
+            ],
+            "container-title": "Remote Sensing of Environment",
+            "id": "roy2016",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "page": "3690-3707",
+            "publisher": "Elsevier",
+            "title": "The collection 5 MODIS burned area product—global evaluation by comparison with the MODIS active fire product",
+            "type": "article-journal",
+            "volume": "112"
+        },
+        {
+            "DOI": "10.3390/rs8070606",
+            "author": [
+                {
+                    "family": "Lefebvre",
+                    "given": "Antoine"
+                },
+                {
+                    "family": "Sannier",
+                    "given": "Christophe"
+                },
+                {
+                    "family": "Corpetti",
+                    "given": "Thomas"
+                }
+            ],
+            "container-title": "Remote Sensing",
+            "id": "lefebvre2016",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "page": "606",
+            "publisher": "MDPI",
+            "title": "Monitoring urban areas with sentinel-2A data: Application to the update of the copernicus high resolution layer imperviousness degree",
+            "title-short": "Monitoring urban areas with sentinel-2A data",
+            "type": "article-journal",
+            "volume": "8"
         }
     ],
     "project_biblios": [
