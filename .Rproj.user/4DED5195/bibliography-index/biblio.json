@@ -29,72 +29,6 @@
             "volume": "27"
         },
         {
-            "author": [
-                {
-                    "family": "Campbell",
-                    "given": "J. B."
-                },
-                {
-                    "family": "Wynne",
-                    "given": "R. H."
-                }
-            ],
-            "edition": "5",
-            "id": "Campbell2011",
-            "issued": {
-                "date-parts": [
-                    [
-                        2011
-                    ]
-                ]
-            },
-            "publisher": "Guilford Press",
-            "title": "Introduction to remote sensing",
-            "type": "book"
-        },
-        {
-            "author": [
-                {
-                    "family": "Schowengerdt",
-                    "given": "R. A."
-                }
-            ],
-            "edition": "3",
-            "id": "Schowengerdt2007",
-            "issued": {
-                "date-parts": [
-                    [
-                        2007
-                    ]
-                ]
-            },
-            "publisher": "Academic Press",
-            "title": "Remote sensing: Models and methods for image processing",
-            "title-short": "Remote sensing",
-            "type": "book"
-        },
-        {
-            "author": [
-                {
-                    "family": "Jensen",
-                    "given": "J. R."
-                }
-            ],
-            "edition": "2",
-            "id": "Jensen2009",
-            "issued": {
-                "date-parts": [
-                    [
-                        2009
-                    ]
-                ]
-            },
-            "publisher": "Pearson Education India",
-            "title": "Remote sensing of the environment: An earth resource perspective",
-            "title-short": "Remote sensing of the environment",
-            "type": "book"
-        },
-        {
             "DOI": "10.3390/rs16040656",
             "author": [
                 {
@@ -132,41 +66,28 @@
             "volume": "16"
         },
         {
-            "DOI": "10.1080/01431161.2016.1192304",
             "author": [
                 {
-                    "family": "Twele",
-                    "given": "André"
+                    "family": "Campbell",
+                    "given": "J. B."
                 },
                 {
-                    "family": "Cao",
-                    "given": "Weiguo"
-                },
-                {
-                    "family": "Plank",
-                    "given": "Simon"
-                },
-                {
-                    "family": "Martinis",
-                    "given": "Sandro"
+                    "family": "Wynne",
+                    "given": "R. H."
                 }
             ],
-            "container-title": "International Journal of Remote Sensing",
-            "id": "twele2016",
-            "issue": "13",
+            "edition": "5",
+            "id": "campbell2011",
             "issued": {
                 "date-parts": [
                     [
-                        2016
+                        2011
                     ]
                 ]
             },
-            "page": "2990-3004",
-            "publisher": "Taylor & Francis",
-            "title": "Sentinel-1-based flood mapping: A fully automated processing chain",
-            "title-short": "Sentinel-1-based flood mapping",
-            "type": "article-journal",
-            "volume": "37"
+            "publisher": "Guilford Press",
+            "title": "Introduction to remote sensing",
+            "type": "book"
         },
         {
             "DOI": "10.1016/j.rse.2017.06.031",
@@ -213,31 +134,139 @@
             "volume": "202"
         },
         {
-            "DOI": "10.1016/j.rse.2014.01.011",
             "author": [
                 {
-                    "family": "Zhu",
-                    "given": "Zhe"
-                },
-                {
-                    "family": "Woodcock",
-                    "given": "Curtis E"
+                    "family": "Jensen",
+                    "given": "J. R."
                 }
             ],
-            "container-title": "Remote Sensing of Environment",
-            "id": "zhu2014",
+            "edition": "2",
+            "id": "jensen2009",
             "issued": {
                 "date-parts": [
                     [
-                        2014
+                        2009
                     ]
                 ]
             },
-            "page": "152-171",
-            "publisher": "Elsevier",
-            "title": "Continuous change detection and classification of land cover using all available landsat data",
+            "publisher": "Pearson Education India",
+            "title": "Remote sensing of the environment: An earth resource perspective",
+            "title-short": "Remote sensing of the environment",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1093/comjnl/27.2.97",
+            "author": [
+                {
+                    "family": "Knuth",
+                    "given": "Donald E."
+                }
+            ],
+            "container-title": "Comput. J.",
+            "id": "knuth1984",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1984
+                    ]
+                ]
+            },
+            "page": "97-111",
+            "publisher": "Oxford University Press, Inc.",
+            "title": "Literate programming",
             "type": "article-journal",
-            "volume": "144"
+            "volume": "27"
+        },
+        {
+            "DOI": "10.3390/rs8070606",
+            "author": [
+                {
+                    "family": "Lefebvre",
+                    "given": "Antoine"
+                },
+                {
+                    "family": "Sannier",
+                    "given": "Christophe"
+                },
+                {
+                    "family": "Corpetti",
+                    "given": "Thomas"
+                }
+            ],
+            "container-title": "Remote Sensing",
+            "id": "lefebvre2016",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "page": "606",
+            "publisher": "MDPI",
+            "title": "Monitoring urban areas with sentinel-2A data: Application to the update of the copernicus high resolution layer imperviousness degree",
+            "title-short": "Monitoring urban areas with sentinel-2A data",
+            "type": "article-journal",
+            "volume": "8"
+        },
+        {
+            "DOI": "10.1016/j.rse.2008.05.013",
+            "author": [
+                {
+                    "family": "Roy",
+                    "given": "David P"
+                },
+                {
+                    "family": "Boschetti",
+                    "given": "Luigi"
+                },
+                {
+                    "family": "Justice",
+                    "given": "Christopher O"
+                },
+                {
+                    "family": "Ju",
+                    "given": "Jinzhong"
+                }
+            ],
+            "container-title": "Remote Sensing of Environment",
+            "id": "roy2016",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "page": "3690-3707",
+            "publisher": "Elsevier",
+            "title": "The collection 5 MODIS burned area product—global evaluation by comparison with the MODIS active fire product",
+            "type": "article-journal",
+            "volume": "112"
+        },
+        {
+            "author": [
+                {
+                    "family": "Schowengerdt",
+                    "given": "R. A."
+                }
+            ],
+            "edition": "3",
+            "id": "schowengerdt2007",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007
+                    ]
+                ]
+            },
+            "publisher": "Academic Press",
+            "title": "Remote sensing: Models and methods for image processing",
+            "title-short": "Remote sensing",
+            "type": "book"
         },
         {
             "DOI": "10.1016/S0034-4257(00)00169-3",
@@ -281,73 +310,68 @@
             "volume": "75"
         },
         {
-            "DOI": "10.1016/j.rse.2008.05.013",
+            "DOI": "10.1080/01431161.2016.1192304",
             "author": [
                 {
-                    "family": "Roy",
-                    "given": "David P"
+                    "family": "Twele",
+                    "given": "André"
                 },
                 {
-                    "family": "Boschetti",
-                    "given": "Luigi"
+                    "family": "Cao",
+                    "given": "Weiguo"
                 },
                 {
-                    "family": "Justice",
-                    "given": "Christopher O"
+                    "family": "Plank",
+                    "given": "Simon"
                 },
                 {
-                    "family": "Ju",
-                    "given": "Jinzhong"
+                    "family": "Martinis",
+                    "given": "Sandro"
+                }
+            ],
+            "container-title": "International Journal of Remote Sensing",
+            "id": "twele2016",
+            "issue": "13",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "page": "2990-3004",
+            "publisher": "Taylor & Francis",
+            "title": "Sentinel-1-based flood mapping: A fully automated processing chain",
+            "title-short": "Sentinel-1-based flood mapping",
+            "type": "article-journal",
+            "volume": "37"
+        },
+        {
+            "DOI": "10.1016/j.rse.2014.01.011",
+            "author": [
+                {
+                    "family": "Zhu",
+                    "given": "Zhe"
+                },
+                {
+                    "family": "Woodcock",
+                    "given": "Curtis E"
                 }
             ],
             "container-title": "Remote Sensing of Environment",
-            "id": "roy2016",
-            "issue": "9",
+            "id": "zhu2014",
             "issued": {
                 "date-parts": [
                     [
-                        2016
+                        2014
                     ]
                 ]
             },
-            "page": "3690-3707",
+            "page": "152-171",
             "publisher": "Elsevier",
-            "title": "The collection 5 MODIS burned area product—global evaluation by comparison with the MODIS active fire product",
+            "title": "Continuous change detection and classification of land cover using all available landsat data",
             "type": "article-journal",
-            "volume": "112"
-        },
-        {
-            "DOI": "10.3390/rs8070606",
-            "author": [
-                {
-                    "family": "Lefebvre",
-                    "given": "Antoine"
-                },
-                {
-                    "family": "Sannier",
-                    "given": "Christophe"
-                },
-                {
-                    "family": "Corpetti",
-                    "given": "Thomas"
-                }
-            ],
-            "container-title": "Remote Sensing",
-            "id": "lefebvre2016",
-            "issue": "7",
-            "issued": {
-                "date-parts": [
-                    [
-                        2016
-                    ]
-                ]
-            },
-            "page": "606",
-            "publisher": "MDPI",
-            "title": "Monitoring urban areas with sentinel-2A data: Application to the update of the copernicus high resolution layer imperviousness degree",
-            "title-short": "Monitoring urban areas with sentinel-2A data",
-            "type": "article-journal",
-            "volume": "8"
+            "volume": "144"
         }
     ],
     "project_biblios": [
