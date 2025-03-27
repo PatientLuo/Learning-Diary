@@ -846,6 +846,162 @@
             "title": "Remote sensing of the urban heat island effect across biomes in the continental USA",
             "type": "article-journal",
             "volume": "114"
+        },
+        {
+            "DOI": "10.1016/j.landurbplan.2022.104370",
+            "author": [
+                {
+                    "family": "Nowak",
+                    "given": "David J."
+                },
+                {
+                    "family": "Ellis",
+                    "given": "Alexis"
+                },
+                {
+                    "family": "Greenfield",
+                    "given": "Eric J."
+                }
+            ],
+            "container-title": "Landscape and Urban Planning",
+            "id": "nowak2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "page": "104370",
+            "publisher": "Elsevier",
+            "title": "The disparity in tree cover and ecosystem service values among redlining classes in the united states",
+            "type": "article-journal",
+            "volume": "221"
+        },
+        {
+            "DOI": "10.3389/fbuil.2020.519599",
+            "author": [
+                {
+                    "family": "MacLachlan",
+                    "given": "Alexander"
+                },
+                {
+                    "family": "Biggs",
+                    "given": "Eloise"
+                },
+                {
+                    "family": "Roberts",
+                    "given": "Gareth"
+                },
+                {
+                    "family": "Boruff",
+                    "given": "Bryan"
+                }
+            ],
+            "container-title": "Frontiers in Built Environment",
+            "id": "maclachlan2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "519599",
+            "publisher": "Frontiers Media",
+            "title": "Sustainable city planning: A data-driven approach for mitigating urban heat",
+            "title-short": "Sustainable city planning",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "DOI": "10.3390/rs6064870",
+            "author": [
+                {
+                    "family": "Plank",
+                    "given": "Simon"
+                }
+            ],
+            "container-title": "Remote Sensing",
+            "id": "plank2014",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "page": "4870-4906",
+            "publisher": "MDPI",
+            "title": "Rapid damage assessment by means of multi-temporal SAR — a comprehensive review and outlook to sentinel-1",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "DOI": "10.1080/01944363.2020.1759127",
+            "author": [
+                {
+                    "family": "Wilson",
+                    "given": "Billy"
+                }
+            ],
+            "container-title": "Journal of the American Planning Association",
+            "id": "wilson2020",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "443-457",
+            "publisher": "Taylor & Francis",
+            "title": "Urban heat management and the legacy of redlining",
+            "type": "article-journal",
+            "volume": "86"
+        },
+        {
+            "DOI": "10.1177/2399808320987001",
+            "author": [
+                {
+                    "family": "Li",
+                    "given": "Dongying"
+                },
+                {
+                    "family": "Newman",
+                    "given": "Galen D."
+                },
+                {
+                    "family": "Wilson",
+                    "given": "Billy"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Yujie"
+                },
+                {
+                    "family": "Brown",
+                    "given": "Robert D."
+                }
+            ],
+            "container-title": "Environment and Planning B: Urban Analytics and City Science",
+            "id": "li2022",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "page": "933-952",
+            "publisher": "SAGE Publications",
+            "title": "Modeling the relationships between historical redlining, urban heat, and heat-related emergency department visits: An examination of 11 texas cities",
+            "title-short": "Modeling the relationships between historical redlining, urban heat, and heat-related emergency department visits",
+            "type": "article-journal",
+            "volume": "49"
         }
     ],
     "project_biblios": [

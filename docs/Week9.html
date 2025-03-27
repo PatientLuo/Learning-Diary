@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Luo Huangchen">
 
-<title>week9 – Learning-Diary1</title>
+<title>8&nbsp; Week 9 Diary – Learning-Diary1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,7 +50,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
+<link href="./summary.html" rel="next">
 <link href="./Week8.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -72,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating fullcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -81,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week9.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week9.html</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week9.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 9 Diary</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -145,31 +165,25 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week7.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 7 Diary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week8.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 8 Diary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week9.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week9.html</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 9 Diary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -183,15 +197,108 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#week-9-synthetic-aperture-radar-sar-and-change-detection" id="toc-week-9-synthetic-aperture-radar-sar-and-change-detection" class="nav-link active" data-scroll-target="#week-9-synthetic-aperture-radar-sar-and-change-detection"><span class="header-section-number">9</span> Week 9: Synthetic Aperture Radar (SAR) and Change Detection</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">9.1</span> Summary</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">9.2</span> Applications</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">9.3</span> Reflection</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 9 Diary</span></h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Luo Huangchen </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<section id="week-9-synthetic-aperture-radar-sar-and-change-detection" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Week 9: Synthetic Aperture Radar (SAR) and Change Detection</h1>
+<section id="summary" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">9.1</span> Summary</h2>
+<p>This week’s lesson focuses on <strong>Synthetic Aperture Radar (SAR)</strong> and its application to <strong>change detection</strong>. This active remote sensing technique is very different from the optical remote sensing I’ve used before: SAR actively emits microwave signals and images by measuring the intensity of the backscatter, so it can penetrate clouds and work around the clock. This reminded me of the analogy my teacher used in class: <em>optical remote sensing is like our eyes, while SAR is more like ‘echolocation’ for bats</em>.</p>
+<p>In the course, I learnt that the <strong>echo intensity</strong> in SAR images is strongly influenced by the <strong>texture and structure</strong> of the ground. For example, a flat water surface will produce <strong>low echo values</strong>, while regular vertical structures like urban buildings will produce <strong>‘double reflections’</strong> and show <strong>higher echo intensity</strong>. At the same time, the <strong>polarisation</strong> of the SAR, such as <strong>VV</strong> and <strong>VH</strong>, determines the echo performance of different features. For example, for the same water surface in calm and windy conditions, the VV polarisation will clearly reflect the change in water surface texture, while the VH will be almost unchanged, and the <strong>C-band</strong> will be used the most.</p>
+<p>Of particular interest to me was the <strong>Interferometric Synthetic Aperture Radar (InSAR)</strong> technique, which can accurately capture <strong>centimetre-level surface displacements</strong> through <em>‘phase’</em> changes in wavelength. The instructor showed an interferogram of the <strong>San Andreas Fault</strong> in California, which clearly shows the smallest movements of the ground surface. This technique is not only used in seismic hazard studies, but also to create <strong>terrain models</strong> with high precision. <img src="images/insar-example.png" class="img-fluid quarto-figure quarto-figure-center" style="width:90.0%"></p>
+<p><strong>Fig. 1</strong> Example of InSAR surface displacement detection through interferogram generation<br>
+<em>Source: <a href="https://nisar.jpl.nasa.gov/mission/get-to-know-sar/interferometry/">NASA-ISRO SAR Mission – Interferometry</a></em></p>
+<p>Finally, we explored the advantages of <strong>SAR in change detection</strong>. Compared with optical remote sensing, SAR has the characteristics of <strong>stable imaging</strong> and <strong>less influence by light and weather</strong>, so it can more accurately capture surface changes before and after disasters. The teacher cited the example of <strong>building damage before and after the Ukrainian war</strong>, which showed me the prospect of the wide application of SAR in the field of <strong>urban management</strong> and <strong>post-disaster assessment</strong>.</p>
+</section>
+<section id="applications" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">9.2</span> Applications</h2>
+<p>This week’s study has given me a deeper understanding of the practical application scenarios of <strong>Synthetic Aperture Radar (SAR)</strong> and <strong>InSAR</strong> technology. I found that the advantage of SAR is that it is not disturbed by cloud cover and sunlight conditions, which makes it an important application prospect in the fields of <strong>urban heat island monitoring</strong> and <strong>disaster assessment</strong>.</p>
+<p>In the field of <strong>urban planning</strong>, urban heat island has always been a key issue plaguing urban development. Monitoring based on traditional optical remote sensing is often affected by cloud cover and weather conditions, with more missing data, whereas SAR can steadily provide <strong>all-weather data</strong>, an advantage that leads me to believe that SAR data are more suitable for <strong>long-term monitoring</strong> of the urban heat island effect and its changing trends <span class="citation" data-cites="maclachlan2021">(<a href="references.html#ref-maclachlan2021" role="doc-biblioref">MacLachlan <em>et al.</em>, 2021</a>)</span>. I have further thought about how SAR can assist in analysing <strong>historical urban problems</strong>, for example, some areas affected by <strong>historical inequitable planning</strong> (e.g.&nbsp;redlining) tend to show more severe urban heat island phenomena, and <strong>environmental health problems</strong> are more prominent in these areas. It may be more informative for <strong>urban policy making</strong> in the future if the high timeliness of SAR can be combined with the long-term tracking of environmental changes in these areas <span class="citation" data-cites="wilson2020 li2022">(<a href="references.html#ref-wilson2020" role="doc-biblioref">Wilson, 2020</a>; <a href="references.html#ref-li2022" role="doc-biblioref">Li <em>et al.</em>, 2022</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/redlining-texas.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Historical redlining categories across selected Texas cities</figcaption>
+</figure>
+</div>
+<p><strong>Fig. 2</strong> Historical redlining categories across selected Texas cities<br>
+<em>Source: <a href="https://doi.org/10.1177/23998083211039854">Li et al.&nbsp;(2022)</a></em></p>
+<p>At the same time, I realise that <strong>SAR data</strong> has an important role to play in <strong>identifying and managing urban ecosystems</strong>. The <strong>uneven distribution of green spaces and ecological services</strong> in some regions is usually the result of historical policy influences, and this uneven distribution can further exacerbate <strong>socio-economic inequities</strong>. I believe that if SAR is used to continuously track <strong>urban vegetation and greening</strong>, it will help to adjust <strong>urban greening policies</strong> in a timely manner and improve the <strong>ecological environment for residents</strong> <span class="citation" data-cites="nowak2022">(<a href="references.html#ref-nowak2022" role="doc-biblioref">Nowak, Ellis and Greenfield, 2022</a>)</span>. Moreover, the <strong>stability</strong> and <strong>high resolution</strong> characteristics of SAR can ensure that the data are <strong>highly reliable</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/tree-cover-differences.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:74.0%"></p>
+</figure>
+</div>
+<p><strong>Fig. 3</strong> Differences in percent tree cover between Class A and Class D neighbourhoods (Class D cover minus Class A cover) across U.S. cities<br>
+<em>Source: <a href="https://www.fs.usda.gov/nrs/pubs/jrnl/2022/nrs_2022_nowak_001.pdf">Nowak et al.&nbsp;(2022)</a></em></p>
+<p>In terms of <strong>disaster response</strong>, I have found that <strong>SAR is more suitable for quickly and accurately monitoring surface changes</strong> after a disaster. Optical imagery is often difficult to provide post-disaster information quickly due to weather conditions, whereas SAR can quickly generate accurate data on surface changes after a disaster. I have learnt that SAR can provide <strong>damage assessment</strong> in a very short time after <strong>earthquakes</strong>, <strong>floods</strong>, and even <strong>man-made disasters</strong> (e.g.&nbsp;war damage). This not only helps directly in <strong>post-disaster rescue operations</strong> but also provides important <strong>data support for post-disaster reconstruction</strong> <span class="citation" data-cites="plank2014">(<a href="references.html#ref-plank2014" role="doc-biblioref">Plank, 2014</a>)</span>.</p>
+</section>
+<section id="reflection" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">9.3</span> Reflection</h2>
+<p>This week’s study of <strong>SAR</strong> and <strong>InSAR</strong> technologies has made me deeply aware of the <strong>diversity of remote sensing tools</strong> with unique advantages in practical applications. SAR technology is unaffected by clouds and weather and can provide data steadily around the clock, which is crucial in <strong>urban planning</strong>, <strong>disaster response</strong>, and <strong>environmental monitoring</strong>. The SAR echo characteristics mentioned in the class and the ability of InSAR technology to monitor surface changes with high accuracy have also inspired me to do a lot of future research.</p>
+<p>Particularly interesting to me is the ability of <strong>InSAR</strong> to monitor <strong>small surface displacements</strong>, such as landslides, land subsidence, or earthquakes-induced surface micro-change. This ability to measure with <strong>centimetre-level accuracy</strong> is extremely valuable in <strong>urban governance</strong> and <strong>disaster management</strong>, making it clearer to me that if I want to study <strong>urban geohazards</strong> in the future, InSAR will be a powerful tool for me. I am also thinking further about how InSAR technology can be applied to <strong>urban infrastructure monitoring</strong>, such as long-term monitoring of <strong>bridges</strong>, <strong>elevated roads</strong>, or <strong>underground pipelines</strong> to detect structural risks in advance.</p>
+<p>In addition, by reading the literature, I started to think deeply about the <strong>integration of remote sensing technology with socio-economic issues</strong>. Historical urban red line areas often face problems such as <strong>heat island effect</strong> and <strong>unbalanced ecological services</strong>, and SAR’s <strong>all-weather observation capability</strong> can provide continuous spatial evidence of these <strong>socio-economic phenomena</strong>. I feel that this <strong>interdisciplinary combination</strong> of technology and social issues is very valuable and worthy of further exploration in my future research.</p>
+<p>I am even considering how to <strong>combine SAR and InSAR data with population health and economic development data</strong> for joint analyses in future research designs to more comprehensively study <strong>environmental justice</strong> and <strong>social inequality</strong> issues.</p>
+
+
+<div id="refs" class="references csl-bib-body" role="list" style="display: none">
+<div id="ref-li2022" class="csl-entry" role="listitem">
+Li, D. <em>et al.</em> (2022) <span>“Modeling the relationships between historical redlining, urban heat, and heat-related emergency department visits: An examination of 11 texas cities,”</span> <em>Environment and Planning B: Urban Analytics and City Science</em>, 49(3), pp. 933–952. Available at: <a href="https://doi.org/10.1177/2399808320987001">https://doi.org/10.1177/2399808320987001</a>.
+</div>
+<div id="ref-maclachlan2021" class="csl-entry" role="listitem">
+MacLachlan, A. <em>et al.</em> (2021) <span>“Sustainable city planning: A data-driven approach for mitigating urban heat,”</span> <em>Frontiers in Built Environment</em>, 6, p. 519599. Available at: <a href="https://doi.org/10.3389/fbuil.2020.519599">https://doi.org/10.3389/fbuil.2020.519599</a>.
+</div>
+<div id="ref-nowak2022" class="csl-entry" role="listitem">
+Nowak, D.J., Ellis, A. and Greenfield, E.J. (2022) <span>“The disparity in tree cover and ecosystem service values among redlining classes in the united states,”</span> <em>Landscape and Urban Planning</em>, 221, p. 104370. Available at: <a href="https://doi.org/10.1016/j.landurbplan.2022.104370">https://doi.org/10.1016/j.landurbplan.2022.104370</a>.
+</div>
+<div id="ref-plank2014" class="csl-entry" role="listitem">
+Plank, S. (2014) <span>“Rapid damage assessment by means of multi-temporal SAR — a comprehensive review and outlook to sentinel-1,”</span> <em>Remote Sensing</em>, 6(6), pp. 4870–4906. Available at: <a href="https://doi.org/10.3390/rs6064870">https://doi.org/10.3390/rs6064870</a>.
+</div>
+<div id="ref-wilson2020" class="csl-entry" role="listitem">
+Wilson, B. (2020) <span>“Urban heat management and the legacy of redlining,”</span> <em>Journal of the American Planning Association</em>, 86(4), pp. 443–457. Available at: <a href="https://doi.org/10.1080/01944363.2020.1759127">https://doi.org/10.1080/01944363.2020.1759127</a>.
+</div>
+</div>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -613,13 +720,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Week8.html" class="pagination-link" aria-label="Week8.html">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week8.html</span></span>
+      <a href="./Week8.html" class="pagination-link" aria-label="Week 8 Diary">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 8 Diary</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
-        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./summary.html" class="pagination-link" aria-label="Summary">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
