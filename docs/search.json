@@ -328,5 +328,15 @@
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 Learning Diary</span>"
     ]
+  },
+  {
+    "objectID": "Week4.html#applications",
+    "href": "Week4.html#applications",
+    "title": "4  Week 4 Learning Diary",
+    "section": "5.2 Applications",
+    "text": "5.2 Applications\n\nLand use/cover change (LUCC) monitoring and assessment\n\n\nGuo et al. (2021) used Landsat and Sentinel multi-source remote sensing imagery, combined with a random forest classifier, to analyse land use change in Guangzhou from 1986–2018. The results showed that the average annual growth of construction land was 41.11 km², which significantly compressed the vegetation cover.\nRemote sensing enables the positive correlation between urban expansion and GDP growth (R² = 0.98) and the negative effect of vegetation reduction (R² = 0.97) to be quantitatively verified, which directly supports the design of urban growth boundary (UGB) management and ecological compensation mechanisms.\n\nSpatial diagnosis and mitigation guidance of urban heat island effect (UHI)\n\n\nBased on surface temperature data from Landsat-8 TIRS inversion, Zhao (2024) found that the heat island effect in Guangzhou is concentrated in the high-density built-up area in the southwest, while the green space–rich area in the north shows a significant cooling effect.\nThis information encourages planners to increase green space and tree canopy cover along tropical areas in the form of “green cooling corridors”, to achieve targeted cooling strategies.\n\n\n\n\n\nFig. 1 Annual average surface temperature distribution in Guangzhou (2018–2023)\nSource: Zhao (2024)\n\nIdentification and spatial governance of urban villages\n\n\nUrban villages in Guangzhou are typical “spatial informal” structures, and Tu et al. (2024) developed an identification system that integrates remote sensing imagery, points of interest (POIs), and census data, and carried out urban-scale fine identification in Guangzhou, with an accuracy of 91.82%.\nThe results were used to support the policy assessment of SDG 11.1.1 and to guide the integration of informal settlements into mainstream urban regeneration programmes.\n\n\n\n\n\nFig. 2 The geographic distribution of POI data and their use in urban village identification in the Greater Bay Area\nSource: Tu et al. (2024)\n\nUrban growth boundary projections and planning simulations\n\n\nZhang and Liao (2024) used an artificial neural network–cellular automata (ANN-CA) model to simulate the urban expansion trend of Guangzhou up to 2030, and identified Panyu and Nansha as key growth areas. The results were used by the Guangzhou Municipal Natural Resources Bureau to optimise the “eastward and southward expansion” urban development strategy, and to lay out the infrastructure and green space system in advance.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 Learning Diary</span>"
+    ]
   }
 ]
