@@ -1,7 +1,6 @@
 ---
 title: "Week 3 Learning Diary"
 author: "Luo Huangchen"
-date: "2025-03-18"
 format: html
 ---
 
@@ -17,7 +16,7 @@ In terms of data processing, we specifically learnt about three key methods, nam
 ### Summary of Remote Sensing Data Corrections {.active}
 
 | **Correction Method**      | **Main Purpose**                                          | **Common Techniques**                                                                                                    |
-|----------------|------------------|---------------------------------------|
+|------------------|------------------|-------------------------------------|
 | **Geometric Correction**   | Ensures spatial accuracy of images                        | Ground Control Points (GCP)                                                                                              |
 | **Atmospheric Correction** | Removes atmospheric interference (clouds, haze, etc.)     | \- Relative Correction: Dark Object Subtraction, Pseudo-Invariant Feature Method <br>- Absolute Correction: FLAASH Model |
 | **Orthorectification**     | Eliminates distortions caused by satellite viewing angles | Mathematical models, DEM-based corrections                                                                               |

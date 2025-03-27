@@ -14,7 +14,7 @@ Remote sensing technology has played a central role in this policy transition. F
 
 The case of Guangzhou reveals how remote sensing can be transformed from an **auxiliary tool** to an *“operating system”* for urban policy realisation.
 
-## Application
+## Applications
 
 1.  **Land use/cover change (LUCC) monitoring and assessment**\
 
