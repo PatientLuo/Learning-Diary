@@ -6,7 +6,7 @@ format: html
 
 # Week6
 
-## Summary: Classification in Remote Sensing
+## Summary: Google Earth Engine in Remote Sensing
 
 In this week's course, we learnt about Google Earth Engine (GEE), a widely used cloud computing platform in remote sensing, which is a geospatial analysis platform based on cloud computing technology launched by Google. The most important feature of GEE is that it can process large-scale remote sensing data online in real time, helping researchers to easily analyse and visualise complex geospatial data without being limited to the performance constraints of local computers [@gorelick2017].
 

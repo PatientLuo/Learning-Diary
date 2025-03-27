@@ -183,7 +183,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
+ <span class="menu-text">References:</span></a>
   </div>
 </li>
     </ul>
@@ -198,7 +198,7 @@ div.csl-indent {
   <ul>
   <li><a href="#week6" id="toc-week6" class="nav-link active" data-scroll-target="#week6"><span class="header-section-number">6</span> Week6</a>
   <ul class="collapse">
-  <li><a href="#summary-classification-in-remote-sensing" id="toc-summary-classification-in-remote-sensing" class="nav-link" data-scroll-target="#summary-classification-in-remote-sensing"><span class="header-section-number">6.1</span> Summary: Classification in Remote Sensing</a></li>
+  <li><a href="#summary-google-earth-engine-in-remote-sensing" id="toc-summary-google-earth-engine-in-remote-sensing" class="nav-link" data-scroll-target="#summary-google-earth-engine-in-remote-sensing"><span class="header-section-number">6.1</span> Summary: Google Earth Engine in Remote Sensing</a></li>
   <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.2</span> Application</a></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">6.3</span> Reflection</a></li>
   </ul></li>
@@ -235,8 +235,8 @@ div.csl-indent {
 
 <section id="week6" class="level1" data-number="6">
 <h1 data-number="6"><span class="header-section-number">6</span> Week6</h1>
-<section id="summary-classification-in-remote-sensing" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="summary-classification-in-remote-sensing"><span class="header-section-number">6.1</span> Summary: Classification in Remote Sensing</h2>
+<section id="summary-google-earth-engine-in-remote-sensing" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="summary-google-earth-engine-in-remote-sensing"><span class="header-section-number">6.1</span> Summary: Google Earth Engine in Remote Sensing</h2>
 <p>In this week’s course, we learnt about Google Earth Engine (GEE), a widely used cloud computing platform in remote sensing, which is a geospatial analysis platform based on cloud computing technology launched by Google. The most important feature of GEE is that it can process large-scale remote sensing data online in real time, helping researchers to easily analyse and visualise complex geospatial data without being limited to the performance constraints of local computers <span class="citation" data-cites="gorelick2017">(<a href="references.html#ref-gorelick2017" role="doc-biblioref">Gorelick <em>et al.</em>, 2017</a>)</span>.</p>
 <p>The course highlights the difference between two key concepts of GEE data processing: client-side and server-side. Client-side processing relies on the performance of the user’s own computer and is suitable for simple tasks, whereas server-side processing takes advantage of the powerful computing capabilities of the Google Cloud and can efficiently parallelise complex tasks. This means that we should use server-side functions whenever possible when using GEE to improve processing efficiency <span class="citation" data-cites="mutanga2019">(<a href="references.html#ref-mutanga2019" role="doc-biblioref">Mutanga and Kumar, 2019</a>)</span>.</p>
 <p>In practice, we learnt the data filtering methods of GEE, such as <code>filterDate()</code> (time range filtering) and <code>filterBounds()</code> (spatial range filtering). Proper use of these filtering methods can significantly reduce the amount of computation and avoid unnecessary data downloads and memory errors <span class="citation" data-cites="gorelick2017">(<a href="references.html#ref-gorelick2017" role="doc-biblioref">Gorelick <em>et al.</em>, 2017</a>)</span>. In addition, the data visualisation function of GEE is powerful; by adjusting the appropriate spatial resolution and band combination, we can quickly view the features of satellite images, such as vegetation, water bodies or urban areas.</p>
