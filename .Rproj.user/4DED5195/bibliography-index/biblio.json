@@ -1002,6 +1002,133 @@
             "title-short": "Modeling the relationships between historical redlining, urban heat, and heat-related emergency department visits",
             "type": "article-journal",
             "volume": "49"
+        },
+        {
+            "DOI": "10.3390/su13052944",
+            "author": [
+                {
+                    "family": "Guo",
+                    "given": "L."
+                },
+                {
+                    "family": "Xi",
+                    "given": "X."
+                },
+                {
+                    "family": "Yang",
+                    "given": "W."
+                },
+                {
+                    "family": "Liang",
+                    "given": "L."
+                }
+            ],
+            "container-title": "Sustainability",
+            "id": "guo2021",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "2944",
+            "title": "Monitoring land use/cover change using remotely sensed data in guangzhou of china",
+            "type": "article-journal",
+            "volume": "13"
+        },
+        {
+            "DOI": "10.1051/e3sconf/202455304002",
+            "author": [
+                {
+                    "family": "Zhao",
+                    "given": "D."
+                }
+            ],
+            "container-title": "E3S web of conferences",
+            "id": "zhao2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "page": "04002",
+            "title": "A remote sensing analysis of the urban heat island effect in guangzhou city from 2018 to 2023",
+            "type": "paper-conference",
+            "volume": "553"
+        },
+        {
+            "DOI": "10.1016/j.isprsjprs.2024.08.014",
+            "author": [
+                {
+                    "family": "Tu",
+                    "given": "W."
+                },
+                {
+                    "family": "Chen",
+                    "given": "D."
+                },
+                {
+                    "family": "Cao",
+                    "given": "R."
+                },
+                {
+                    "family": "Xia",
+                    "given": "J."
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Y."
+                },
+                {
+                    "family": "Li",
+                    "given": "Q."
+                }
+            ],
+            "container-title": "ISPRS Journal of Photogrammetry and Remote Sensing",
+            "id": "tu2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "page": "199-215",
+            "title": "Towards SDG 11: Large-scale geographic and demographic characterisation of informal settlements fusing remote sensing, POI, and open geo-data",
+            "title-short": "Towards SDG 11",
+            "type": "article-journal",
+            "volume": "217"
+        },
+        {
+            "DOI": "10.1016/j.heliyon.2024.e38052",
+            "author": [
+                {
+                    "family": "Zhang",
+                    "given": "L."
+                },
+                {
+                    "family": "Liao",
+                    "given": "Z."
+                }
+            ],
+            "container-title": "Heliyon",
+            "id": "zhang2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "page": "e38052",
+            "title": "The prediction of urban growth boundary based on the ANN–CA model: An application to guangzhou",
+            "title-short": "The prediction of urban growth boundary based on the ANN–CA model",
+            "type": "article-journal",
+            "volume": "10"
         }
     ],
     "project_biblios": [

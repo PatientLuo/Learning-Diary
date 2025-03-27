@@ -12,7 +12,8 @@ This week's lesson focuses on **Synthetic Aperture Radar (SAR)** and its applica
 
 In the course, I learnt that the **echo intensity** in SAR images is strongly influenced by the **texture and structure** of the ground. For example, a flat water surface will produce **low echo values**, while regular vertical structures like urban buildings will produce **‘double reflections’** and show **higher echo intensity**. At the same time, the **polarisation** of the SAR, such as **VV** and **VH**, determines the echo performance of different features. For example, for the same water surface in calm and windy conditions, the VV polarisation will clearly reflect the change in water surface texture, while the VH will be almost unchanged, and the **C-band** will be used the most.
 
-Of particular interest to me was the **Interferometric Synthetic Aperture Radar (InSAR)** technique, which can accurately capture **centimetre-level surface displacements** through *‘phase’* changes in wavelength. The instructor showed an interferogram of the **San Andreas Fault** in California, which clearly shows the smallest movements of the ground surface. This technique is not only used in seismic hazard studies, but also to create **terrain models** with high precision. ![](images/insar-example.png){fig-align="center" width="90%"}
+Of particular interest to me was the **Interferometric Synthetic Aperture Radar (InSAR)** technique, which can accurately capture **centimetre-level surface displacements** through *‘phase’* changes in wavelength. The instructor showed an interferogram of the **San Andreas Fault** in California, which clearly shows the smallest movements of the ground surface. This technique is not only used in seismic hazard studies, but also to create **terrain models** with high precision. 
+![](images/insar-example.png){fig-align="center" width="90%"}
 
 **Fig. 1** Example of InSAR surface displacement detection through interferogram generation\
 *Source: [NASA-ISRO SAR Mission – Interferometry](https://nisar.jpl.nasa.gov/mission/get-to-know-sar/interferometry/)*
@@ -25,7 +26,7 @@ This week's study has given me a deeper understanding of the practical applicati
 
 In the field of **urban planning**, urban heat island has always been a key issue plaguing urban development. Monitoring based on traditional optical remote sensing is often affected by cloud cover and weather conditions, with more missing data, whereas SAR can steadily provide **all-weather data**, an advantage that leads me to believe that SAR data are more suitable for **long-term monitoring** of the urban heat island effect and its changing trends [@maclachlan2021]. I have further thought about how SAR can assist in analysing **historical urban problems**, for example, some areas affected by **historical inequitable planning** (e.g. redlining) tend to show more severe urban heat island phenomena, and **environmental health problems** are more prominent in these areas. It may be more informative for **urban policy making** in the future if the high timeliness of SAR can be combined with the long-term tracking of environmental changes in these areas [@wilson2020; @li2022].
 
-![Historical redlining categories across selected Texas cities](images/redlining-texas.png){fig-align="center" width="70%"}
+![Historical redlining categories across selected Texas cities](images/redlining-texas.jpg){fig-align="center" width="70%"}
 
 **Fig. 2** Historical redlining categories across selected Texas cities\
 *Source: [Li et al. (2022)](https://doi.org/10.1177/23998083211039854)*

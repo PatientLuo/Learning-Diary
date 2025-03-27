@@ -25,7 +25,7 @@ Firstly, for **supervised classification**, I think the **Random Forest** algori
 ![](images/random-forest-process.png){fig-align="center" width="64%"}
 
 **Fig. 1** Training and classification phases of Random Forest classifier\
-*Source: [Belgiu and Drăguţ (2016)](https://doi.org/10.1016/j.isprsjprs.2016.01.011)*
+*Source: [Belgiu and Drăguţ (2016)](https://www.sciencedirect.com/science/article/abs/pii/S0924271616000265)*
 
 On the other hand, the introduction of **regression trees** also reminded me of their potential for analysing urban vegetation and environmental indicators. I found that regression trees are particularly suitable for estimating **continuous environmental variables**, such as the proportion of vegetation cover within a city or the distribution of urban surface temperature. In past studies, regression trees have been successfully used to quantitatively analyse **urban heat island intensity** from remote sensing imagery, helping urban planning authorities to accurately identify areas with temperature anomalies [@imhoff2010].
 

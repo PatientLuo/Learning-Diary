@@ -1,1 +1,59 @@
+---
+title: "Week 4 Learning Diary"
+author: "Luo Huangchen"
+format: html
+---
 
+# Week 4 Policy
+
+## Summary
+
+Guangzhou, a core city in southern China, has experienced rapid urbanisation over the past decades. Studies show that between 1986 and 2018, Guangzhou's built-up land increased by 439.34%, while vegetation cover decreased by 19.99% [@guo2021]. While this expansion has been accompanied by economic take-off, it has also brought about problems such as the intensification of the **urban heat island effect**, fragmentation of green space, and rising **ecological pressure**. In response, the Guangzhou Municipal Government issued the *‘Guangzhou Territorial Spatial Master Plan (2020–2035)’*, which clearly defines the **red line of ecological protection** and the **urban growth boundary** in order to achieve a *“compact, green and orderly”* urban spatial vision [@zhang2024].
+
+Remote sensing technology has played a central role in this policy transition. From **Landsat**, **Sentinel** to **domestically produced high-frequency high-fraction satellites**, remote sensing provides Guangzhou with high-frequency, comparable data on **land use**, **thermal environment** and **green space cover**. This enables a closed-loop assessment mechanism of *“quantifiable”*, *“monitorable”* and *“adjustable”* policy objectives [@zhao2024]. At the same time, remote sensing provides a tool platform for **urban village identification and boundary delineation**, **greening actions for heat island mitigation**, and **urban growth modelling**.
+
+The case of Guangzhou reveals how remote sensing can be transformed from an **auxiliary tool** to an *“operating system”* for urban policy realisation.
+
+## Application
+
+1.  **Land use/cover change (LUCC) monitoring and assessment**\
+
+@guo2021 used **Landsat** and **Sentinel** multi-source remote sensing imagery, combined with a **random forest classifier**, to analyse land use change in Guangzhou from 1986–2018. The results showed that the average annual growth of construction land was **41.11 km²**, which significantly compressed the vegetation cover.
+
+Remote sensing enables the positive correlation between **urban expansion** and **GDP growth** (*R² = 0.98*) and the negative effect of **vegetation reduction** (*R² = 0.97*) to be quantitatively verified, which directly supports the design of **urban growth boundary (UGB)** management and **ecological compensation mechanisms**.
+
+2.  **Spatial diagnosis and mitigation guidance of urban heat island effect (UHI)**\
+
+Based on **surface temperature data** from **Landsat-8 TIRS** inversion, @zhao2024 found that the heat island effect in Guangzhou is concentrated in the **high-density built-up area in the southwest**, while the **green space–rich area in the north** shows a significant cooling effect.
+
+This information encourages planners to increase **green space** and **tree canopy cover** along tropical areas in the form of *“green cooling corridors”*, to achieve **targeted cooling** strategies.
+
+![](images/guangzhou-temp-map.png){fig-align="center" width="90%"}
+
+**Fig. 1** Annual average surface temperature distribution in Guangzhou (2018–2023)\
+*Source: [Zhao (2024)](https://doi.org/10.1051/e3sconf/202455304002)*
+
+3.  **Identification and spatial governance of urban villages**\
+
+Urban villages in Guangzhou are typical *“spatial informal”* structures, and @tu2024 developed an **identification system** that integrates **remote sensing imagery**, **points of interest (POIs)**, and **census data**, and carried out **urban-scale fine identification** in Guangzhou, with an accuracy of **91.82%**.
+
+The results were used to support the **policy assessment of SDG 11.1.1** and to guide the integration of **informal settlements into mainstream urban regeneration programmes**.
+
+![](images/POI.png){fig-align="center" width="86%"}
+
+**Fig. 2** The geographic distribution of POI data and their use in urban village identification in the Greater Bay Area\
+*Source: [Tu et al. (2024)](https://doi.org/10.1016/j.isprsjprs.2024.08.014)*
+
+4.  **Urban growth boundary projections and planning simulations**\
+
+@zhang2024 used an artificial neural network–cellular automata (ANN-CA) model to simulate the urban expansion trend of Guangzhou up to 2030, and identified **Panyu** and **Nansha** as key growth areas. The results were used by the Guangzhou Municipal Natural Resources Bureau to optimise the *“eastward and southward expansion”* urban development strategy, and to lay out the infrastructure and green space system in advance.
+
+## Reflection
+
+The case of **Guangzhou** demonstrates how remote sensing can help a city to maintain a **scientific** and **forward-looking** approach to environmental management in the face of rapid development. Remote sensing not only provides a **macro view** of geographic facts, but also transforms **abstract policy goals** into *visible*, *measurable* and *controllable* objects.
+
+However, there are still **technical bottlenecks** and **social equity issues** in this process. On the one hand, the acquisition and processing of **high-resolution remote sensing images** requires high technical and financial resources, and it may be difficult for **small and medium-sized cities** or **developing regions** to replicate Guangzhou's practice. On the other hand, although remote sensing can accurately identify *“where it is hot”* and *“where there is a lack of greenery”*, it is difficult to measure the **actual feelings** and **participation** of residents, and it is easy to ignore the *“humanistic temperature”* of urban governance.
+
+For me personally, the **remote sensing practice in Guangzhou** has strengthened my understanding of *“data-supported urban governance”*. I realise that it is difficult to achieve sustainable urban development by remote sensing technology alone, and that it must be used in conjunction with **GIS**, **ground surveys**, and **public collaborative mechanisms** in order to achieve *people-centred smart governance*.
+
+In the future, I hope to promote the **two-way empowerment** between **remote sensing and urban policy**, both in academic research and in practice.
