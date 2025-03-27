@@ -1,6 +1,6 @@
 ---
 title: "Week 2 Learning Diary"
-author: "PatientLuo"
+author: "Luo Huangchen"
 date: "2025-03-18"
 format: html
 ---

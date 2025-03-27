@@ -1,5 +1,5 @@
 ---
-title: "Week 9 Diary"
+title: "Week 9 Learning Diary"
 author: "Luo Huangchen"
 format: html
 ---
