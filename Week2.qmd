@@ -7,16 +7,20 @@ format: html
 
 ## Week2
 
-📢 Week 2: Creating PPTs with xaringan This week, we will be using xaringan, an R Markdown package, to create slides. xaringan allows us to build flexible, interactive, and beautifully styled presentations using simple Markdown syntax. It’s a powerful tool for sharing research findings, data visualizations, and spatial analysis results in a professional and customizable way.
+📢 Week 2: Creating PPTs with xaringan This week, we will be using xaringan, an R Markdown package, to create slides. xaringan allows us to build flexible, interactive, and beautifully styled presentations using simple Markdown syntax.
 
-Throughout this week, we will explore how to: ✅ Set up a basic xaringan presentation ✅ Customize themes and layouts ✅ Integrate code, plots, and interactive elements
-
-I’m excited to dive into this and see how we can make engaging presentations with xaringan! 🚀
+Throughout this week, I will explore how to: Set up a basic xaringan presentation, Customize themes and layouts, Integrate code, plots, and interactive elements
 
 ## 🎞️ Sentinel-2 Xaringan Presentation
 
-Below is my Week 2 interactive presentation created using **xaringan** and hosted on **GitHub Pages**.
+Below is my Week 2 interactive presentation
 
 <iframe src="https://patientluo.github.io/Week2-pre/Week-2-presentation.html#4" width="100%" height="600px" frameborder="0">
 
 </iframe>
+
+## Reflection
+
+This week's assignment had me trying to create an online presentation using xaringan and hosting it on GitHub Pages. This was not only a process of presenting a remote sensing application, but also a new attempt to ‘think programmatically’. Compared with traditional PowerPoint, xaringan is more flexible and transparent, and I have a clearer understanding of the logical structure behind each slide. At the same time, through the integration of text, code and images in R Markdown, I felt the possibility of a natural flow between data visualisation and narrative.
+
+From local editing in RStudio to online presentation in GitHub, each step made me understand the real need for ‘collaboration and reproducibility in research’. Although I had some problems debugging YAML and image paths at the beginning, solving them helped me to build a more complete understanding of the whole RStudio-GitHub-xaringan workflow.
