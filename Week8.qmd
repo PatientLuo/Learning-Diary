@@ -1,0 +1,61 @@
+---
+title: "Week 8 Diary"
+author: "Luo Huangchen"
+format: html
+---
+
+# Week 8: Classification and Accuracy Assessment
+
+## Summary
+
+This week's course continues to explore classification methods while focusing on accuracy assessment of remotely sensed imagery.We started with several surface coverage products, such as **MODIS**, **GlobeLand30**, and the hipster-named **Dynamic World**, which was developed by Google and Microsoft and uses Convolutional Neural Networks (CNN) and Sentinel-2 data to provide *‘real-time’* and *‘global coverage’*.
+
+It sounds pretty cool, but the professor immediately reminded us that although the data is new and fast, it also has a lot of problems, such as using **Top Atmospheric Reflectance (TOA)** to train the model, which may be mixed with atmospheric interference. In addition, its minimum mapping unit is **50×50 metres**, which makes the classified images look a bit blurry and unsuitable for fine urban studies after convolution processing.
+
+We then learnt about two more ‘smart’ classification methods: **Object-Oriented Image Analysis (OBIA)** and **Sub-pixel analysis**.Instead of focusing on individual pixels, OBIA combines similar pixels into *“objects”*, which are analysed as a whole through spatial and spectral similarity — somewhat like a geographical version of clustering algorithms.Sub-pixel classification, on the other hand, tries to estimate the proportion of different features within a single pixel. This approach is especially suitable for complex urban scenes, where a pixel may simultaneously contain grass, concrete, and water.
+
+The most enlightening part was the **accuracy assessment** section. We learnt about **producer accuracy**, **user accuracy**, **overall accuracy**, and the classic — but highly controversial — **Kappa coefficient**.The professor emphasised that you can't just look at a high value and assume that the model is good. Especially when the training and test data are too close, the classification accuracy is likely to be **overestimated**.This also made me realise that **accuracy assessment is not only a technical task, but also a logical and methodological process** — one that requires careful consideration of data quality, sampling strategy, and model robustness.
+
+## Applications
+
+This week's study made me realise that the task of classifying urban remote sensing is often stuck between *“how to classify more accurately”* and *“how to know if the classification is accurate.”* Two methods are of particular interest to me: **Object-Oriented Image Analysis (OBIA)** and **Spectral Mixture Analysis (SMA)**. When processing high-resolution remote sensing imagery, I have found that traditional pixel-level classification often results in a *“pretzel effect,”* where the image appears to be sprinkled with noise. In contrast, the OBIA method better reflects the spatial continuity of real-world features by aggregating similar pixels into meaningful objects before classification. This approach not only improves the **readability** of the classified map but also reduces **classification errors** [@benz2004]. I think it is especially important in urban areas, where green spaces or water bodies tend to form coherent patches rather than being randomly scattered.
+
+![](images/segmentation.png){fig-align="center" width="80%"}
+
+**Fig. 1** Example segmentation result in *eCognition*\
+*Source: [Benz et al. (2004)](https://doi.org/10.1016/j.isprsjprs.2003.10.002)*
+
+Another thing that struck me was the **SMA (Spectral Mixture Analysis)** method. In urban areas, a pixel often contains multiple features, such as roofs, grass, and pavement mixed together. Traditional classification forces a *“pick one”* approach, but SMA more reasonably assumes that each pixel is a combination of multiple features. By estimating the proportions of each component, we can obtain a more nuanced classification, which is particularly useful for assessing the proportion of urban green space cover or impervious surface [@small2003]. ![](images/urban-composites.png){fig-align="center" width="90%"}
+
+**Fig. 2** False color composites and principal component representations of urban areas\
+*Source: [Small (2003)](https://doi.org/10.1016/j.rse.2003.04.008)* ![](images/sma-ikonos.png){fig-align="center" width="90%"}
+
+**Fig. 3** Example applications of spectral mixture analysis on urban IKONOS imagery\
+*Source: [Small (2003)](https://doi.org/10.1016/j.rse.2003.04.008)*
+
+These two figures in particular help me to understand the strengths of **Spectral Mixture Analysis (SMA)**: the consistency of SMA in revealing similar *“mixed structures”* such as high-albedo buildings, vegetation, and shaded areas — even in different cities — suggests that it has a good ability to **generalise**.
+
+After the classification is done, the **accuracy assessment** is especially critical. In my opinion, high accuracy does not always mean that the model is good, especially if the training and validation samples are too close together spatially, and the model may *“leak”* [@foody2002]. I will be particularly concerned about the presence of **spatial autocorrelation** in future analyses.
+
+After reviewing the literature, I found that these methods are also widely used in real urban studies, as the **SMA method** can be used to estimate vegetation cover in **Indianapolis**, and the **OBIA method** has been used to monitor changes in **urban tree canopy** and feature boundaries [@lu2004]. These ideas made me realise that what we are learning now is actually *“running”* in real projects.
+
+## Reflection
+
+This week has made me realise that remote sensing classification is much more than just *‘labelling pixels’*. Not only do we need to know how to classify, but we also need to really understand if and how the results can be trusted.
+
+In the course, the professor emphasised the issue of **spatial autocorrelation**, which made me rethink my previous superstitions about high accuracy. In the past, when I saw *‘95% accuracy’* in the literature, I thought it was a proof that the model was great, but now I know that the reason behind it is that the training and testing samples may be *‘too similar’* to each other. This detail reminds me that remote sensing is not only a technology, but also a place to practice **methodology and logic**.
+
+I especially like the **OBIA** and **SMA** methods introduced this week, which both go beyond the simple assumption of *‘one pixel equals one feature’* and are closer to the complexity of the real world.
+
+The idea of breaking down a pixel into its constituent parts, as in SMA, is not just a technical choice, but for me a **cognitive shift**: the objects we are analysing are not clearly distinguishable categories, but rather a **continuum**, a mixture of realities.
+
+This started me thinking that in the future, if I were to engage in **urban carbon stock assessment**, **urban sprawl monitoring**, or **heat island analysis**, SMA or OBIA might provide more structured data support than traditional supervised classification.
+
+In addition, I started to realise that **accuracy assessment is not just a ‘final step’**, but something that should be considered from the **very beginning** of designing a sampling strategy. For example:\
+- How to divide the training/validation samples?\
+- Is there any spatial overlap?\
+- Are the evaluation metrics serving my actual goals?
+
+These questions may not have been a concern before, but now they will become *“reminder bells”* in my project design.
+
+In short, this week's content has helped me move from *‘using the tool’* to *‘understanding the tool’*, and given me more *‘confidence to question it’* when facing remote sensing data in the future. I think this is an **invaluable form of critical awareness**.

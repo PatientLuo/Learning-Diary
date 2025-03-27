@@ -372,6 +372,480 @@
             "title": "Continuous change detection and classification of land cover using all available landsat data",
             "type": "article-journal",
             "volume": "144"
+        },
+        {
+            "DOI": "10.1016/j.rse.2017.06.031",
+            "author": [
+                {
+                    "family": "Gorelick",
+                    "given": "Noel"
+                },
+                {
+                    "family": "Hancher",
+                    "given": "Matt"
+                },
+                {
+                    "family": "Dixon",
+                    "given": "Mike"
+                },
+                {
+                    "family": "Ilyushchenko",
+                    "given": "Sergey"
+                },
+                {
+                    "family": "Thau",
+                    "given": "David"
+                },
+                {
+                    "family": "Moore",
+                    "given": "Rebecca"
+                }
+            ],
+            "container-title": "Remote Sensing of Environment",
+            "id": "gorelick2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "page": "18-27",
+            "title": "Google earth engine: Planetary-scale geospatial analysis for everyone",
+            "title-short": "Google earth engine",
+            "type": "article-journal",
+            "volume": "202"
+        },
+        {
+            "DOI": "10.3390/rs11050591",
+            "author": [
+                {
+                    "family": "Mutanga",
+                    "given": "Onisimo"
+                },
+                {
+                    "family": "Kumar",
+                    "given": "Lalit"
+                }
+            ],
+            "container-title": "Remote Sensing",
+            "id": "mutanga2019",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "page": "591",
+            "title": "Google earth engine applications",
+            "type": "article-journal",
+            "volume": "11"
+        },
+        {
+            "DOI": "10.1109/JSTARS.2020.3021052",
+            "author": [
+                {
+                    "family": "Amani",
+                    "given": "Mohammad"
+                },
+                {
+                    "family": "Ghorbanian",
+                    "given": "Ahmad"
+                },
+                {
+                    "family": "Ahmadi",
+                    "given": "Seyed Abbas"
+                },
+                {
+                    "family": "Kakooei",
+                    "given": "Mohsen"
+                },
+                {
+                    "family": "Moghimi",
+                    "given": "Ali"
+                },
+                {
+                    "family": "Mirmazloumi",
+                    "given": "Seyed Mohammad"
+                },
+                {
+                    "family": "Mahdavi",
+                    "given": "Saeid"
+                }
+            ],
+            "container-title": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+            "id": "amani2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "5326-5350",
+            "title": "Google earth engine cloud computing platform for remote sensing big data applications: A comprehensive review",
+            "title-short": "Google earth engine cloud computing platform for remote sensing big data applications",
+            "type": "article-journal",
+            "volume": "13"
+        },
+        {
+            "DOI": "10.1016/j.rse.2017.05.025",
+            "author": [
+                {
+                    "family": "Azzari",
+                    "given": "George"
+                },
+                {
+                    "family": "Lobell",
+                    "given": "David B"
+                }
+            ],
+            "container-title": "Remote Sensing of Environment",
+            "id": "azzari2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "page": "64-74",
+            "title": "Landsat-based classification in the cloud: An opportunity for a paradigm shift in land cover monitoring",
+            "title-short": "Landsat-based classification in the cloud",
+            "type": "article-journal",
+            "volume": "202"
+        },
+        {
+            "DOI": "10.3390/rs9080807",
+            "author": [
+                {
+                    "family": "DeVries",
+                    "given": "Ben"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Chengquan"
+                },
+                {
+                    "family": "Lang",
+                    "given": "Megan W"
+                },
+                {
+                    "family": "Jones",
+                    "given": "John W"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Wenli"
+                },
+                {
+                    "family": "Creed",
+                    "given": "Irena F"
+                },
+                {
+                    "family": "Carroll",
+                    "given": "Mark L"
+                }
+            ],
+            "container-title": "Remote Sensing",
+            "id": "devries2017",
+            "issue": "8",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "page": "807",
+            "title": "Automated quantification of surface water inundation in wetlands using optical satellite imagery",
+            "type": "article-journal",
+            "volume": "9"
+        },
+        {
+            "DOI": "10.1126/science.1244693",
+            "author": [
+                {
+                    "family": "Hansen",
+                    "given": "Matthew C"
+                },
+                {
+                    "family": "Potapov",
+                    "given": "Peter V"
+                },
+                {
+                    "family": "Moore",
+                    "given": "Rebecca"
+                },
+                {
+                    "family": "Hancher",
+                    "given": "Matt"
+                },
+                {
+                    "family": "Turubanova",
+                    "given": "Svetlana A"
+                },
+                {
+                    "family": "Tyukavina",
+                    "given": "Alexandra"
+                },
+                {
+                    "family": "Thau",
+                    "given": "David"
+                },
+                {
+                    "family": "Stehman",
+                    "given": "Stephen V"
+                },
+                {
+                    "family": "Goetz",
+                    "given": "Scott J"
+                },
+                {
+                    "family": "Loveland",
+                    "given": "Thomas R"
+                },
+                {
+                    "family": "Kommareddy",
+                    "given": "Aruna"
+                },
+                {
+                    "family": "Egorov",
+                    "given": "Andrey"
+                },
+                {
+                    "family": "Chini",
+                    "given": "Luca"
+                },
+                {
+                    "family": "Justice",
+                    "given": "Christopher O"
+                },
+                {
+                    "family": "Townshend",
+                    "given": "John RG"
+                }
+            ],
+            "container-title": "Science",
+            "id": "hansen2013",
+            "issue": "6160",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013
+                    ]
+                ]
+            },
+            "page": "850-853",
+            "title": "High-resolution global maps of 21st-century forest cover change",
+            "type": "article-journal",
+            "volume": "342"
+        },
+        {
+            "author": [
+                {
+                    "family": "Benz",
+                    "given": "Ursula C"
+                },
+                {
+                    "family": "Hofmann",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Willhauck",
+                    "given": "Gregor"
+                },
+                {
+                    "family": "Lingenfelder",
+                    "given": "Ingrid"
+                },
+                {
+                    "family": "Heynen",
+                    "given": "Martin"
+                }
+            ],
+            "container-title": "ISPRS Journal of Photogrammetry and Remote Sensing",
+            "id": "benz2004",
+            "issue": "3-4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2004
+                    ]
+                ]
+            },
+            "page": "239-258",
+            "publisher": "Elsevier",
+            "title": "Multi-resolution, object-oriented fuzzy analysis of remote sensing data for GIS-ready information",
+            "type": "article-journal",
+            "volume": "58"
+        },
+        {
+            "author": [
+                {
+                    "family": "Foody",
+                    "given": "Giles M"
+                }
+            ],
+            "container-title": "Remote Sensing of Environment",
+            "id": "foody2002",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2002
+                    ]
+                ]
+            },
+            "page": "185-201",
+            "publisher": "Elsevier",
+            "title": "Status of land cover classification accuracy assessment",
+            "type": "article-journal",
+            "volume": "80"
+        },
+        {
+            "author": [
+                {
+                    "family": "Lu",
+                    "given": "Dengsheng"
+                },
+                {
+                    "family": "Weng",
+                    "given": "Qihao"
+                }
+            ],
+            "container-title": "Photogrammetric Engineering & Remote Sensing",
+            "id": "lu2004",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2004
+                    ]
+                ]
+            },
+            "page": "1053-1062",
+            "publisher": "American Society for Photogrammetry; Remote Sensing",
+            "title": "Spectral mixture analysis of the urban landscape in indianapolis with landsat ETM+ imagery",
+            "type": "article-journal",
+            "volume": "70"
+        },
+        {
+            "author": [
+                {
+                    "family": "Small",
+                    "given": "Christopher"
+                }
+            ],
+            "container-title": "Remote Sensing of Environment",
+            "id": "small2003",
+            "issue": "1-2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2003
+                    ]
+                ]
+            },
+            "page": "170-186",
+            "publisher": "Elsevier",
+            "title": "High spatial resolution spectral mixture analysis of urban reflectance",
+            "type": "article-journal",
+            "volume": "88"
+        },
+        {
+            "DOI": "10.1016/j.isprsjprs.2016.01.011",
+            "author": [
+                {
+                    "family": "Belgiu",
+                    "given": "Mariana"
+                },
+                {
+                    "family": "Drăguţ",
+                    "given": "Lucian"
+                }
+            ],
+            "container-title": "ISPRS Journal of Photogrammetry and Remote Sensing",
+            "id": "belgiu2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "page": "24-31",
+            "publisher": "Elsevier",
+            "title": "Random forest in remote sensing: A review of applications and future directions",
+            "title-short": "Random forest in remote sensing",
+            "type": "article-journal",
+            "volume": "114"
+        },
+        {
+            "DOI": "10.1080/10106049.2015.1064055",
+            "author": [
+                {
+                    "family": "Gao",
+                    "given": "Ying"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Xiaoling"
+                }
+            ],
+            "container-title": "Geocarto International",
+            "id": "gao2016",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "page": "620-632",
+            "publisher": "Taylor & Francis",
+            "title": "Integration of k-means clustering and object-oriented classification for land-cover mapping",
+            "type": "article-journal",
+            "volume": "31"
+        },
+        {
+            "DOI": "10.1016/j.rse.2009.10.008",
+            "author": [
+                {
+                    "family": "Imhoff",
+                    "given": "Marc L"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Peng"
+                },
+                {
+                    "family": "Wolfe",
+                    "given": "Robert E"
+                },
+                {
+                    "family": "Bounoua",
+                    "given": "Lahouari"
+                }
+            ],
+            "container-title": "Remote Sensing of Environment",
+            "id": "imhoff2010",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010
+                    ]
+                ]
+            },
+            "page": "504-513",
+            "publisher": "Elsevier",
+            "title": "Remote sensing of the urban heat island effect across biomes in the continental USA",
+            "type": "article-journal",
+            "volume": "114"
         }
     ],
     "project_biblios": [

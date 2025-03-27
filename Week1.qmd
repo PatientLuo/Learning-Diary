@@ -1,7 +1,6 @@
 ---
 title: "Week 1 Learning Diary"
 author: "PatientLuo"
-date: "2025-03-18"
 format: html
 ---
 

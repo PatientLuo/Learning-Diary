@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="PatientLuo">
-<meta name="dcterms.date" content="2025-03-18">
+<meta name="author" content="Luo Huangchen">
 
-<title>2&nbsp; Week 2 Learning Diary – Learning-Diary1</title>
+<title>6&nbsp; Week 7 Diary – Learning-Diary1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,8 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Week3.html" rel="next">
-<link href="./Week1.html" rel="prev">
+<link href="./Week8.html" rel="next">
+<link href="./Week6.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -83,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week2.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2 Learning Diary</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week7.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 7 Diary</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -122,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Week2.html" class="sidebar-item-text sidebar-link active">
+  <a href="./Week2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2 Learning Diary</span></span></a>
   </div>
 </li>
@@ -146,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Week7.html" class="sidebar-item-text sidebar-link">
+  <a href="./Week7.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 7 Diary</span></span></a>
   </div>
 </li>
@@ -190,8 +208,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#week2" id="toc-week2" class="nav-link active" data-scroll-target="#week2"><span class="header-section-number">2.1</span> Week2</a></li>
-  <li><a href="#sentinel-2-xaringan-presentation" id="toc-sentinel-2-xaringan-presentation" class="nav-link" data-scroll-target="#sentinel-2-xaringan-presentation"><span class="header-section-number">2.2</span> 🎞️ Sentinel-2 Xaringan Presentation</a></li>
+  <li><a href="#week-7-classification-methods-and-applications" id="toc-week-7-classification-methods-and-applications" class="nav-link active" data-scroll-target="#week-7-classification-methods-and-applications"><span class="header-section-number">7</span> Week 7: Classification Methods and Applications</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">7.1</span> Summary</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">7.2</span> Applications</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">7.3</span> Reflection</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -200,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2 Learning Diary</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 7 Diary</span></h1>
 </div>
 
 
@@ -210,16 +232,10 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>PatientLuo </p>
+             <p>Luo Huangchen </p>
           </div>
   </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 18, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -229,19 +245,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="week2" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="week2"><span class="header-section-number">2.1</span> Week2</h2>
-<p>📢 Week 2: Creating PPTs with xaringan This week, we will be using xaringan, an R Markdown package, to create slides. xaringan allows us to build flexible, interactive, and beautifully styled presentations using simple Markdown syntax. It’s a powerful tool for sharing research findings, data visualizations, and spatial analysis results in a professional and customizable way.</p>
-<p>Throughout this week, we will explore how to: ✅ Set up a basic xaringan presentation ✅ Customize themes and layouts ✅ Integrate code, plots, and interactive elements</p>
-<p>I’m excited to dive into this and see how we can make engaging presentations with xaringan! 🚀</p>
+<section id="week-7-classification-methods-and-applications" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Week 7: Classification Methods and Applications</h1>
+<section id="summary" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">7.1</span> Summary</h2>
+<p>This week’s course focuses on the key methods and principles of remote sensing <strong>classification</strong>, especially the difference between <strong>Supervised Classification</strong> and <strong>Unsupervised Classification</strong> and their application scenarios. In Supervised Classification, we mainly studied <strong>Decision Tree</strong> and <strong>Random Forest</strong> algorithms. The professor emphasised that Decision Tree has the advantage of being intuitive and easy to understand, but it is also prone to <strong>overfitting</strong>, i.e.&nbsp;the model may be too sensitive to the training data and difficult to generalise to new data. To solve this problem, we also learnt the <strong>Random Forest</strong> method, which not only improves classification accuracy but also effectively reduces the risk of overfitting by integrating the results of multiple decision trees.</p>
+<p>Another highlight of the course was the introduction of <strong>Regression Tree</strong>. While most of the classification algorithms we have come across in the past are for prediction of discrete categories, Regression Tree is able to deal with <strong>continuous variables</strong>, such as the estimation of the proportion of vegetation in land cover. The professor mentioned that regression trees are similar in principle to decision trees, but use numerical variables rather than category labels in node splitting, making them ideal for more refined environmental monitoring tasks.</p>
+<p>In terms of <strong>unsupervised classification</strong>, we instead focused on <strong>K-means clustering</strong> methods. Instead of pre-labelling the training samples, this method automatically groups pixels based on the <strong>spectral features</strong> of the data, which is particularly useful in scenarios where explicitly labelled data is lacking. However, the professor also pointed out that K-means requires <strong>manual judgement of the optimal number of categories</strong> in practical applications, which adds to the subjectivity in its use.</p>
+<p>Through this week’s study, I further realised the importance of the <strong>choice of classification method</strong>: supervised classification is suitable for situations with sufficient training data, while unsupervised classification is suitable for exploratory analysis or scenarios with limited data. Overall, this week has given me a better understanding of how to choose the most appropriate classification tool for my actual needs.</p>
 </section>
-<section id="sentinel-2-xaringan-presentation" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="sentinel-2-xaringan-presentation"><span class="header-section-number">2.2</span> 🎞️ Sentinel-2 Xaringan Presentation</h2>
-<p>Below is my Week 2 interactive presentation created using <strong>xaringan</strong> and hosted on <strong>GitHub Pages</strong>.</p>
-<iframe src="https://patientluo.github.io/Week2-pre/Week-2-presentation.html#4" width="100%" height="600px" frameborder="0">
-</iframe>
+<section id="applications" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">7.2</span> Applications</h2>
+<p>The supervised and unsupervised classification methods I learned in this week’s course got me thinking about how I can apply them more effectively to real-world remote sensing research.</p>
+<p>Firstly, for <strong>supervised classification</strong>, I think the <strong>Random Forest</strong> algorithm has great potential. Compared with traditional decision trees, it significantly improves classification accuracy through the voting mechanism of multiple trees and mitigates the risk of overfitting, which is especially suitable for complex remote sensing analysis of urban environments. After reviewing the relevant literature, I found that the Random Forest approach has been widely used in monitoring urban land use changes and has demonstrated extremely high accuracy. For example, one study used the Random Forest algorithm to analyse Sentinel-2 imagery and successfully identified different land use types in the process of urban expansion, which was significantly better than the classification results of a single decision tree <span class="citation" data-cites="belgiu2016">(<a href="references.html#ref-belgiu2016" role="doc-biblioref">Belgiu and Drăguţ, 2016</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/random-forest-process.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:64.0%"></p>
+</figure>
+</div>
+<p><strong>Fig. 1</strong> Training and classification phases of Random Forest classifier<br>
+<em>Source: <a href="https://doi.org/10.1016/j.isprsjprs.2016.01.011">Belgiu and Drăguţ (2016)</a></em></p>
+<p>On the other hand, the introduction of <strong>regression trees</strong> also reminded me of their potential for analysing urban vegetation and environmental indicators. I found that regression trees are particularly suitable for estimating <strong>continuous environmental variables</strong>, such as the proportion of vegetation cover within a city or the distribution of urban surface temperature. In past studies, regression trees have been successfully used to quantitatively analyse <strong>urban heat island intensity</strong> from remote sensing imagery, helping urban planning authorities to accurately identify areas with temperature anomalies <span class="citation" data-cites="imhoff2010">(<a href="references.html#ref-imhoff2010" role="doc-biblioref">Imhoff <em>et al.</em>, 2010</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/urban-heat-island.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:77.0%"></p>
+</figure>
+</div>
+<p><strong>Fig. 2</strong> Urban Heat Island Intensity and Spatial Distribution Across Different Biomes in the USA<br>
+<em>Source: <a href="https://doi.org/10.1016/j.rse.2009.10.008">Imhoff et al.&nbsp;(2010)</a></em></p>
+<p>In addition, for cases where the data lacks explicit labelling, I believe that <strong>unsupervised classification methods</strong> such as <strong>K-means clustering</strong> are equally valuable. K-means can automatically identify feature types based on spectral similarity without predefined categories. This is useful for initial exploration of new remote sensing datasets or in areas where detailed ground data are lacking. However, the number of categories for K-means needs to be determined by humans, which may introduce some subjectivity. I note that some studies have used K-means for initial classification in urban landscape analyses, which was subsequently combined with a small amount of supervised data for fine-grained corrections, resulting in more accurate classification results <span class="citation" data-cites="gao2016">(<a href="references.html#ref-gao2016" role="doc-biblioref">Gao and Xu, 2016</a>)</span>. This strategy of combining <strong>unsupervised and supervised classification</strong> is worth trying in depth in my future.</p>
+</section>
+<section id="reflection" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.3</span> Reflection</h2>
+<p>This week’s study on classification methods in remote sensing has made me further appreciate the <em>‘art of choice’</em> behind the analysis of remote sensing data. Faced with the two distinct paths of <strong>supervised</strong> and <strong>unsupervised classification</strong>, I realised that the choice of classification method depends not only on the data itself, but also on the research objectives and the availability of resources. In particular, tools such as <strong>random forests</strong> and <strong>regression trees</strong> showed me the balance between accuracy and efficiency, which may play a great role in urban research in the future.</p>
+<p>In particular, the <em>‘majority voting’</em> mechanism of random forests gave me more confidence in the robustness and accuracy of the classification results. I started to think about how to use Random Forests to handle complex remote sensing data and capture the subtle differences in urban change in topics such as <strong>urban heat island</strong> and <strong>land use change</strong>. However, I also realised that the complexity of the Random Forest model itself makes the <strong>interpretation of the results potentially difficult</strong>, so in the future I will need to learn more about how to effectively interpret and communicate the results of classification models.</p>
+<p>The presentation of <strong>regression trees</strong>, on the other hand, made me think further about the advantages of remote sensing in <strong>quantitatively analysing continuous environmental variables</strong>. This capability is particularly suited to the estimation of metrics such as <strong>urban vegetation percentage</strong> and <strong>surface temperature</strong>.</p>
+<p>On the other hand, <strong>unsupervised classification</strong> methods such as <strong>K-means clustering</strong> enlightened me on how to be more flexible in preliminary data exploration, especially when the data are incomplete or under-labelled. However, I also noticed that determining the optimal number of classifications is still highly subjective, which also showed me how it is important to incorporate <strong>supervised classification strategies based on unsupervised classification</strong> in order to reduce subjective bias.</p>
 
 
+<div id="refs" class="references csl-bib-body" role="list" style="display: none">
+<div id="ref-belgiu2016" class="csl-entry" role="listitem">
+Belgiu, M. and Drăguţ, L. (2016) <span>“Random forest in remote sensing: A review of applications and future directions,”</span> <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, 114, pp. 24–31. Available at: <a href="https://doi.org/10.1016/j.isprsjprs.2016.01.011">https://doi.org/10.1016/j.isprsjprs.2016.01.011</a>.
+</div>
+<div id="ref-gao2016" class="csl-entry" role="listitem">
+Gao, Y. and Xu, X. (2016) <span>“Integration of k-means clustering and object-oriented classification for land-cover mapping,”</span> <em>Geocarto International</em>, 31(6), pp. 620–632. Available at: <a href="https://doi.org/10.1080/10106049.2015.1064055">https://doi.org/10.1080/10106049.2015.1064055</a>.
+</div>
+<div id="ref-imhoff2010" class="csl-entry" role="listitem">
+Imhoff, M.L. <em>et al.</em> (2010) <span>“Remote sensing of the urban heat island effect across biomes in the continental USA,”</span> <em>Remote Sensing of Environment</em>, 114(3), pp. 504–513. Available at: <a href="https://doi.org/10.1016/j.rse.2009.10.008">https://doi.org/10.1016/j.rse.2009.10.008</a>.
+</div>
+</div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -664,13 +717,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Week1.html" class="pagination-link" aria-label="Week 1 Learning Diary">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1 Learning Diary</span></span>
+      <a href="./Week6.html" class="pagination-link" aria-label="Week 6 Diary">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 6 Diary</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Week3.html" class="pagination-link" aria-label="Week 3 Learning Diary">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3 Learning Diary</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Week8.html" class="pagination-link" aria-label="Week 8 Diary">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 8 Diary</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

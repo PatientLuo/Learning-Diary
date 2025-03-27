@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="PatientLuo">
-<meta name="dcterms.date" content="2025-03-18">
+<meta name="author" content="Luo Huangchen">
 
-<title>2&nbsp; Week 2 Learning Diary – Learning-Diary1</title>
+<title>5&nbsp; Week 6 Diary – Learning-Diary1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,8 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Week3.html" rel="next">
-<link href="./Week1.html" rel="prev">
+<link href="./Week7.html" rel="next">
+<link href="./Week4.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -83,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week2.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2 Learning Diary</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week6.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 6 Diary</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -122,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Week2.html" class="sidebar-item-text sidebar-link active">
+  <a href="./Week2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2 Learning Diary</span></span></a>
   </div>
 </li>
@@ -140,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Week6.html" class="sidebar-item-text sidebar-link">
+  <a href="./Week6.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 6 Diary</span></span></a>
   </div>
 </li>
@@ -190,8 +208,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#week2" id="toc-week2" class="nav-link active" data-scroll-target="#week2"><span class="header-section-number">2.1</span> Week2</a></li>
-  <li><a href="#sentinel-2-xaringan-presentation" id="toc-sentinel-2-xaringan-presentation" class="nav-link" data-scroll-target="#sentinel-2-xaringan-presentation"><span class="header-section-number">2.2</span> 🎞️ Sentinel-2 Xaringan Presentation</a></li>
+  <li><a href="#week6" id="toc-week6" class="nav-link active" data-scroll-target="#week6"><span class="header-section-number">6</span> Week6</a>
+  <ul class="collapse">
+  <li><a href="#summary-classification-in-remote-sensing" id="toc-summary-classification-in-remote-sensing" class="nav-link" data-scroll-target="#summary-classification-in-remote-sensing"><span class="header-section-number">6.1</span> Summary: Classification in Remote Sensing</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.2</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">6.3</span> Reflection</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -200,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2 Learning Diary</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 6 Diary</span></h1>
 </div>
 
 
@@ -210,16 +232,10 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>PatientLuo </p>
+             <p>Luo Huangchen </p>
           </div>
   </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 18, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -229,19 +245,80 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="week2" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="week2"><span class="header-section-number">2.1</span> Week2</h2>
-<p>📢 Week 2: Creating PPTs with xaringan This week, we will be using xaringan, an R Markdown package, to create slides. xaringan allows us to build flexible, interactive, and beautifully styled presentations using simple Markdown syntax. It’s a powerful tool for sharing research findings, data visualizations, and spatial analysis results in a professional and customizable way.</p>
-<p>Throughout this week, we will explore how to: ✅ Set up a basic xaringan presentation ✅ Customize themes and layouts ✅ Integrate code, plots, and interactive elements</p>
-<p>I’m excited to dive into this and see how we can make engaging presentations with xaringan! 🚀</p>
+<section id="week6" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Week6</h1>
+<section id="summary-classification-in-remote-sensing" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="summary-classification-in-remote-sensing"><span class="header-section-number">6.1</span> Summary: Classification in Remote Sensing</h2>
+<p>In this week’s course, we learnt about Google Earth Engine (GEE), a widely used cloud computing platform in remote sensing, which is a geospatial analysis platform based on cloud computing technology launched by Google. The most important feature of GEE is that it can process large-scale remote sensing data online in real time, helping researchers to easily analyse and visualise complex geospatial data without being limited to the performance constraints of local computers <span class="citation" data-cites="gorelick2017">(<a href="references.html#ref-gorelick2017" role="doc-biblioref">Gorelick <em>et al.</em>, 2017</a>)</span>.</p>
+<p>The course highlights the difference between two key concepts of GEE data processing: client-side and server-side. Client-side processing relies on the performance of the user’s own computer and is suitable for simple tasks, whereas server-side processing takes advantage of the powerful computing capabilities of the Google Cloud and can efficiently parallelise complex tasks. This means that we should use server-side functions whenever possible when using GEE to improve processing efficiency <span class="citation" data-cites="mutanga2019">(<a href="references.html#ref-mutanga2019" role="doc-biblioref">Mutanga and Kumar, 2019</a>)</span>.</p>
+<p>In practice, we learnt the data filtering methods of GEE, such as <code>filterDate()</code> (time range filtering) and <code>filterBounds()</code> (spatial range filtering). Proper use of these filtering methods can significantly reduce the amount of computation and avoid unnecessary data downloads and memory errors <span class="citation" data-cites="gorelick2017">(<a href="references.html#ref-gorelick2017" role="doc-biblioref">Gorelick <em>et al.</em>, 2017</a>)</span>. In addition, the data visualisation function of GEE is powerful; by adjusting the appropriate spatial resolution and band combination, we can quickly view the features of satellite images, such as vegetation, water bodies or urban areas.</p>
+<p>Data reduction and statistical analysis is also one of the important functions of GEE. We specifically learnt about zonal statistics and image reduction. Zonal statistics, such as the <code>reduceRegion()</code> function, can easily calculate the Normalized Difference Vegetation Index (NDVI) or rainfall for a specific region, which is widely used in agricultural monitoring and ecological research <span class="citation" data-cites="amani2020">(<a href="references.html#ref-amani2020" role="doc-biblioref">Amani <em>et al.</em>, 2020</a>)</span>. Image downscaling can use methods such as <code>median()</code> or <code>mean()</code> to efficiently handle large amounts of data, thus reducing the computational resources required for analysis.</p>
+<p>Taken together, this week’s course demonstrates how the combination of cloud computing and remote sensing technology has significantly lowered the technical barrier to remote sensing analysis and increased the availability and efficiency of data analysis.</p>
 </section>
-<section id="sentinel-2-xaringan-presentation" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="sentinel-2-xaringan-presentation"><span class="header-section-number">2.2</span> 🎞️ Sentinel-2 Xaringan Presentation</h2>
-<p>Below is my Week 2 interactive presentation created using <strong>xaringan</strong> and hosted on <strong>GitHub Pages</strong>.</p>
-<iframe src="https://patientluo.github.io/Week2-pre/Week-2-presentation.html#4" width="100%" height="600px" frameborder="0">
-</iframe>
+<section id="application" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="application"><span class="header-section-number">6.2</span> Application</h2>
+<p>Google Earth Engine (GEE) has been widely used in many fields, such as environmental monitoring, agricultural production management, climate change analysis and disaster response, due to its powerful cloud computing capability and rich data resources.</p>
+<p>One of the application cases that impresses me is the long-term monitoring of land cover changes using the GEE platform. In this week’s reading, I learnt about a study on high-resolution analysis of global forest change based on GEE. The study took full advantage of GEE’s cloud computing and processed more than 650,000 Landsat satellite images, resulting in fine-grained monitoring of forest change on a global scale.</p>
+<p>In the past, this type of global-scale big data processing was often extremely time-consuming, but with the capability of GEE, the efficiency and accuracy of the study can be greatly improved <span class="citation" data-cites="hansen2013">(<a href="references.html#ref-hansen2013" role="doc-biblioref">Hansen <em>et al.</em>, 2013</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/forest.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p><strong>Fig. 1</strong> Regional examples of forest cover change from 2000 to 2012<br>
+<em>Source: <a href="https://doi.org/10.1126/science.1244693">Hansen et al.&nbsp;(2013)</a></em></p>
+<p>Not only forest monitoring, GEE has important applications in disaster response. For example, flood monitoring, in the past, when floods occurred, it has been a challenge to obtain timely information about the affected area. Maps of flood-affected areas can be quickly generated by GEE, which significantly improves the efficiency of disaster response operations <span class="citation" data-cites="devries2017">(<a href="references.html#ref-devries2017" role="doc-biblioref">DeVries <em>et al.</em>, 2017</a>)</span>. Specifically, Sentinel-1 radar imagery can be rapidly analysed on the GEE platform, which is able to ‘cut through’ clouds and bad weather, providing accurate and timely data to support relief operations even under adverse weather conditions.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/flowchart.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p><strong>Fig. 2</strong> Flowchart of the SWF estimation algorithm demonstrated in this study<br>
+<em>Source: <a href="https://doi.org/10.3390/rs9080807">DeVries et al.&nbsp;(2017)</a></em></p>
+<p>In addition, I am particularly interested in the application of GEE in agriculture. We can use the GEE platform to monitor the production of corn in the Midwest region of the U.S. in real time, and by calculating the vegetation indices (e.g., NDVI) in satellite images, we have established a crop yield prediction model <span class="citation" data-cites="azzari2017">(<a href="references.html#ref-azzari2017" role="doc-biblioref">Azzari and Lobell, 2017</a>)</span>. This method is more timely and accurate than traditional ground observation, and can help the agricultural sector make decisions in advance and optimise resource allocation.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/sample.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p><strong>Fig. 3</strong> Samples of the different cover types as seen in Google Earth high-resolution images:<br>
+(a) rainfed crops (RFC),<br>
+(b) irrigated crops (IRC),<br>
+(c) urban areas (URB),<br>
+(d) swamp natural vegetation (SWN),<br>
+(e) open-canopy natural vegetation (OCN),<br>
+(f) close-canopy natural vegetation (CCN).<br>
+<em>Source: <a href="https://doi.org/10.1016/j.rse.2017.05.025">Azzari and Lobell (2017)</a></em></p>
+<p>In my opinion, the emergence of GEE is not only a technological advancement, but also a change in the way of thinking. In the past, remote sensing analyses were often limited by local computing resources, and researchers had to consider how to compress the data or reduce the precision of the analyses. Now, with GEE’s cloud computing capabilities, we can be bolder in designing research programmes and attempting more complex and comprehensive data analysis. This shift means that remote sensing technology will play an even more critical role in solving major global problems.</p>
+</section>
+<section id="reflection" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.3</span> Reflection</h2>
+<p>The biggest feeling I got from learning Google Earth Engine (GEE) this week is that technology is really changing the research possibilities. In the past, remote sensing data processing often faced the problem of insufficient computing resources, especially when we tried to process large-scale satellite image data, the local computer would soon ‘strike’, but now just open the GEE platform, many analyses that used to be inconceivable instantly become feasible. This convenience really makes me feel that my research is full of more possibilities and I have more confidence to try new research methods.</p>
+<p>However, I also realised that although GEE looks wonderful, it is not entirely without difficulties in practice. For example, how to use some built-in functions or datasets efficiently still needs to be further explored; at the same time, once Google changes the platform functionality, our code may suddenly ‘fail’. This requires us to keep track of the analysis process, regularly check for code updates, and adapt to new changes in the platform in a timely manner.</p>
+<p>Overall, this study not only helped me to master a powerful analysis tool, but also made me start to think about the relationship between technology and research. The tool is only an aid, and how to effectively integrate this tool into concrete research may be more worthwhile for me to think about in depth in the future. I am also looking forward to using GEE to try to solve some real environmental problems in my future courses or research, so that I can really apply what I have learnt to real scenarios.</p>
 
 
+<div id="refs" class="references csl-bib-body" role="list" style="display: none">
+<div id="ref-amani2020" class="csl-entry" role="listitem">
+Amani, M. <em>et al.</em> (2020) <span>“Google earth engine cloud computing platform for remote sensing big data applications: A comprehensive review,”</span> <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em>, 13, pp. 5326–5350. Available at: <a href="https://doi.org/10.1109/JSTARS.2020.3021052">https://doi.org/10.1109/JSTARS.2020.3021052</a>.
+</div>
+<div id="ref-azzari2017" class="csl-entry" role="listitem">
+Azzari, G. and Lobell, D.B. (2017) <span>“Landsat-based classification in the cloud: An opportunity for a paradigm shift in land cover monitoring,”</span> <em>Remote Sensing of Environment</em>, 202, pp. 64–74. Available at: <a href="https://doi.org/10.1016/j.rse.2017.05.025">https://doi.org/10.1016/j.rse.2017.05.025</a>.
+</div>
+<div id="ref-devries2017" class="csl-entry" role="listitem">
+DeVries, B. <em>et al.</em> (2017) <span>“Automated quantification of surface water inundation in wetlands using optical satellite imagery,”</span> <em>Remote Sensing</em>, 9(8), p. 807. Available at: <a href="https://doi.org/10.3390/rs9080807">https://doi.org/10.3390/rs9080807</a>.
+</div>
+<div id="ref-gorelick2017" class="csl-entry" role="listitem">
+Gorelick, N. <em>et al.</em> (2017) <span>“Google earth engine: Planetary-scale geospatial analysis for everyone,”</span> <em>Remote Sensing of Environment</em>, 202, pp. 18–27. Available at: <a href="https://doi.org/10.1016/j.rse.2017.06.031">https://doi.org/10.1016/j.rse.2017.06.031</a>.
+</div>
+<div id="ref-hansen2013" class="csl-entry" role="listitem">
+Hansen, M.C. <em>et al.</em> (2013) <span>“High-resolution global maps of 21st-century forest cover change,”</span> <em>Science</em>, 342(6160), pp. 850–853. Available at: <a href="https://doi.org/10.1126/science.1244693">https://doi.org/10.1126/science.1244693</a>.
+</div>
+<div id="ref-mutanga2019" class="csl-entry" role="listitem">
+Mutanga, O. and Kumar, L. (2019) <span>“Google earth engine applications,”</span> <em>Remote Sensing</em>, 11(5), p. 591. Available at: <a href="https://doi.org/10.3390/rs11050591">https://doi.org/10.3390/rs11050591</a>.
+</div>
+</div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -664,13 +741,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Week1.html" class="pagination-link" aria-label="Week 1 Learning Diary">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1 Learning Diary</span></span>
+      <a href="./Week4.html" class="pagination-link" aria-label="Week4.html">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week4.html</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Week3.html" class="pagination-link" aria-label="Week 3 Learning Diary">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3 Learning Diary</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Week7.html" class="pagination-link" aria-label="Week 7 Diary">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 7 Diary</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
